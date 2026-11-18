@@ -1620,6 +1620,18 @@
       "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/joint_core.py",
       "sha256": "e8f98f19761f246ede4d4645df0d1c18d3519524b2636a0c588ae02b69073e23",
       "bytes": 1378
+    },
+    {
+      "path": "ast_bpe_multifield_v2/coefficient_free.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/ast_bpe_multifield_v2/coefficient_free.py",
+      "sha256": "10bdbe07bb856e7f43211963789342451b6d9048385641aa21daba0957a98cb3",
+      "bytes": 5876
+    },
+    {
+      "path": "ast_bpe_multifield_v4/grouped_scoring_snapshot.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/ast_bpe_multifield_v4/grouped_scoring_snapshot.py",
+      "sha256": "9d60418473110fffdf8534d8c85ccf9f0b30401ed183afab797116c12f02954b",
+      "bytes": 3528
     }
   ],
   "fno_checkpoint_status": "Historical model_3920.pth unavailable at recorded server path; metrics retained",

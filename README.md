@@ -72,3 +72,13 @@ FNO/U-Net 历史评价与学生采用同一 seen 索引、20→20、u/v 两通�
 U-Net 权重：见仓库 Release `snapshot-2026-11-18`。原始文件约 92 MB，通过 Release 单独下载；下载后可依据 `provenance_manifest.json` 检查 SHA256。
 
 上游 RealPDEBench 代码遵守其 CC BY-NC 4.0 许可，详见 `research/realpdebench/upstream/LICENSE`。本仓库不改变第三方文件的许可。
+
+## 仓库完整性检查
+
+```bash
+python scripts/verify_snapshot.py
+```
+
+该检查不需要数据、GPU 或 API：核对归档文件哈希，加载 2/4/8 维检查点，验证对应指标，并运行编码、显式积分和解码前向。另有 `scripts/recover_cache_indices.py --output /new/path`，可从缓存清单恢复训练/验证窗口条目；不恢复原文件排版哈希，也不生成缺失的测试索引。
+
+复现状态：代码和三个学生检查点的无数据前向已验证。完整训练/基线重评仍需原始数据、缓存、缺失的测试索引/clean manifest、基线完整归一化文件；FNO 重新评价还需找回其权重。保留的历史指标不等于本仓库已重新完成这些评价。
