@@ -1,0 +1,6 @@
+{
+  "initialization_seconds": 0.0745071042329073,
+  "train_windows": 8147,
+  "first_window_exact_match": true,
+  "cache_repeat_exact_match": true
+}

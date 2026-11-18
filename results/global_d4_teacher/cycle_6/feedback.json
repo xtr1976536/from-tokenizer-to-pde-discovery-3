@@ -1,0 +1,876 @@
+[
+  {
+    "coordinate_version": "b24ee0a3ea4d318f9fe98ab845b8056d630d2d31f75444c60b3805bdcc87b1c6",
+    "internal_holdout_field_mse_after_epoch": 0.0007781918360398487
+  },
+  {
+    "text": "v\\\\w\\\\p\\\\u",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        0.48895426982760676
+      ],
+      [
+        -0.4469616164568644
+      ],
+      [
+        -1.1302215688697628
+      ],
+      [
+        -0.31675903472876565
+      ]
+    ],
+    "structural_family_key": "5644cba24ea26bc443a54f027ff9b08fa350034a3f402142d58f460dea6366be",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 10.449967822995832,
+    "coefficient_fit_seconds": 0.1517209317535162,
+    "latent_rollout_seconds": 0.05254955776035786,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.20739533007144928,
+    "internal_holdout_field_mse_before_adaptation": 0.0010039707117438404,
+    "field_score_seconds": 13.311115438118577
+  },
+  {
+    "text": "v\\\\-u\\\\p\\\\-w",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        0.48895426982760676
+      ],
+      [
+        0.957779499623575
+      ],
+      [
+        -1.1302215688697628
+      ],
+      [
+        -0.4172534813940173
+      ]
+    ],
+    "structural_family_key": "b3fdd2184363e7cd74da49f026cdf5a033c9f6027655c1f2021cf1f900f001b6",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 10.535921028438343,
+    "coefficient_fit_seconds": 0.14922082610428333,
+    "latent_rollout_seconds": 0.06943444721400738,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.2217964492738247,
+    "internal_holdout_field_mse_before_adaptation": 0.0010290936589036452,
+    "field_score_seconds": 13.650914821773767
+  },
+  {
+    "text": "v+w\\\\u-p\\\\w-u\\\\v-p",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        0.9689445865304042,
+        0.4178877282451734
+      ],
+      [
+        -0.4238931670608365,
+        1.890228944435837
+      ],
+      [
+        -0.04986881270832024,
+        0.7712762066416775
+      ],
+      [
+        3.106544279463326,
+        1.0562075158008482
+      ]
+    ],
+    "structural_family_key": "3f5dee2ab161f50536ee190014690cf871b291691f36f8e002834356dabeac7f",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 8.944080963471439,
+    "coefficient_fit_seconds": 0.16457528248429298,
+    "latent_rollout_seconds": 0.07477950304746628,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.24184158071875572,
+    "internal_holdout_field_mse_before_adaptation": 0.0008302726474396299,
+    "field_score_seconds": 13.459066338837147
+  },
+  {
+    "text": "u*v\\\\v*w\\\\w*p\\\\p*u",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        -0.05211767287420452
+      ],
+      [
+        0.02853130671277879
+      ],
+      [
+        -0.04610519593555717
+      ],
+      [
+        0.0266760990632901
+      ]
+    ],
+    "structural_family_key": "e734dca7a821bda4141c015a7a0653c0a8fa60d79ebf8270328fe6acaf6d1e74",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 10.932517161068889,
+    "coefficient_fit_seconds": 0.1501539945602417,
+    "latent_rollout_seconds": 0.08779823780059814,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.24152707867324352,
+    "internal_holdout_field_mse_before_adaptation": 0.000994447716079117,
+    "field_score_seconds": 13.940611692145467
+  },
+  {
+    "text": "v+w\\\\-u+v*w\\\\-v+w*p\\\\-w+u*p",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        0.9689445865304042,
+        0.4178877282451734
+      ],
+      [
+        1.2318583791256579,
+        0.037733379319556136
+      ],
+      [
+        -2.4141915162659235,
+        -0.07887715906477615
+      ],
+      [
+        -0.45833722438803426,
+        -0.01999763329122011
+      ]
+    ],
+    "structural_family_key": "8c612aa218d44e0b7be083e1d19203c3425b7697bdd97646f31fc0a78e2360e8",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 10.89376225790635,
+    "coefficient_fit_seconds": 0.16168163157999516,
+    "latent_rollout_seconds": 0.09241384267807007,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.25757936015725136,
+    "internal_holdout_field_mse_before_adaptation": 0.0008915350582705435,
+    "field_score_seconds": 15.697270119562745
+  },
+  {
+    "text": "1+v\\\\u-w\\\\1+p\\\\-u-v",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        4.038490229536605,
+        0.7075724841949677
+      ],
+      [
+        -1.1357115772728927,
+        0.5041902191363387
+      ],
+      [
+        -36.6084937445068,
+        -3.6601017109611114
+      ],
+      [
+        0.8608540574924624,
+        -2.69587613677002
+      ]
+    ],
+    "structural_family_key": "d1fb178b4d9b5b94e49a0f8b590b75f1b42758decc8c25b6c328e9907c6059ad",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 8.935256803138024,
+    "coefficient_fit_seconds": 0.157695721834898,
+    "latent_rollout_seconds": 0.10494696162641048,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.26633989810943604,
+    "internal_holdout_field_mse_before_adaptation": 0.0008254071549183891,
+    "field_score_seconds": 14.763947257772088
+  },
+  {
+    "text": "v+u*w\\\\-u+v*p\\\\-w+u*v\\\\-p+w*v",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        0.5605307636565797,
+        -0.019402686539638118
+      ],
+      [
+        0.09710117497687683,
+        0.21567026299848172
+      ],
+      [
+        -0.06769622386058435,
+        -0.07588249671081537
+      ],
+      [
+        0.8584543416205125,
+        0.11438961035212138
+      ]
+    ],
+    "structural_family_key": "e845aadf367b9b4136dbf5f89d22f1bd7ef202b3a18e3430f941bf9b8a907bd5",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 8.344998774209365,
+    "coefficient_fit_seconds": 0.15784907713532448,
+    "latent_rollout_seconds": 0.10158434510231018,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.25994414649903774,
+    "internal_holdout_field_mse_before_adaptation": 0.0008861499663865225,
+    "field_score_seconds": 16.221381785348058
+  },
+  {
+    "text": "u+v\\\\-u+v+w\\\\-v+w+p\\\\-w+p+u",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        -0.08682783670888697,
+        0.4978543205973408
+      ],
+      [
+        1.0685186466520538,
+        -0.7511458882606532,
+        -0.7433668972031661
+      ],
+      [
+        -1.2810120468792168,
+        -2.2685898513734157,
+        -4.871441433875894
+      ],
+      [
+        -2.153439531221126,
+        3.2087567217868975,
+        -0.4630942609127076
+      ]
+    ],
+    "structural_family_key": "70241a3589f380ef87927ac74d1f12d2ea1215e0e4fb28387830f1c0370eb4d9",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 9.821271298112283,
+    "coefficient_fit_seconds": 0.1646935511380434,
+    "latent_rollout_seconds": 0.09352554194629192,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.2610941343009472,
+    "internal_holdout_field_mse_before_adaptation": 0.0009719701805778741,
+    "field_score_seconds": 15.991515664383769
+  },
+  {
+    "text": "v+w\\\\u+p\\\\w+u\\\\p+v",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        0.9689445865304042,
+        0.4178877282451734
+      ],
+      [
+        -0.4238931670608365,
+        -1.890228944435837
+      ],
+      [
+        -0.04986881270832024,
+        -0.7712762066416775
+      ],
+      [
+        -1.0562075158008501,
+        3.1065442794633293
+      ]
+    ],
+    "structural_family_key": "7ad84c9d90794fdf5c938b07c99f937846ee0ac2401df3f720465be29cfc97ca",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 8.944080963471439,
+    "coefficient_fit_seconds": 0.15726212039589882,
+    "latent_rollout_seconds": 0.06404918245971203,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.22369454614818096,
+    "internal_holdout_field_mse_before_adaptation": 0.0008302726474396299,
+    "field_score_seconds": 12.835346393287182
+  },
+  {
+    "text": "1+v\\\\u+w\\\\1+p\\\\-u+v",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        4.038490229536605,
+        0.7075724841949677
+      ],
+      [
+        -1.1357115772728927,
+        -0.5041902191363387
+      ],
+      [
+        -36.6084937445068,
+        -3.6601017109611114
+      ],
+      [
+        0.8608540574924624,
+        2.69587613677002
+      ]
+    ],
+    "structural_family_key": "ea4570be402d62807959168643287c304d827e1f70612a3e16acfa8717d73a3b",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 8.935256803138024,
+    "coefficient_fit_seconds": 0.15792092122137547,
+    "latent_rollout_seconds": 0.08894571475684643,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.247194217517972,
+    "internal_holdout_field_mse_before_adaptation": 0.0008254071549183891,
+    "field_score_seconds": 15.644438767805696
+  },
+  {
+    "text": "v+u*w\\\\-u+v*p\\\\-w+u*v\\\\-p+w*v",
+    "status": "REJECTED",
+    "error": "Duplicate structure"
+  },
+  {
+    "text": "u+v*w\\\\-v+u*p\\\\w+u*v\\\\-p+v*w",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        -0.11220033456066333,
+        0.01732646450189329
+      ],
+      [
+        -0.43101118292444285,
+        0.21602778561009078
+      ],
+      [
+        0.06769622386058435,
+        -0.07588249671081537
+      ],
+      [
+        0.8584543416205125,
+        0.11438961035212138
+      ]
+    ],
+    "structural_family_key": "50ec37ba4e2728e4713f4ea334955b5913dbc1bbe1cc4ac649073347b61e4578",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 9.782909414072076,
+    "coefficient_fit_seconds": 0.1588161215186119,
+    "latent_rollout_seconds": 0.08982337452471256,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.25326399877667427,
+    "internal_holdout_field_mse_before_adaptation": 0.0008461110759640652,
+    "field_score_seconds": 16.192155020311475
+  },
+  {
+    "text": "1+v+w\\\\u-v\\\\1+p+w\\\\-u+p",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        -9.824388613344512,
+        0.953085292743059,
+        0.8671006031695352
+      ],
+      [
+        -0.9766040811399395,
+        -0.09327183299136488
+      ],
+      [
+        -8.772605409209977,
+        -5.691740797227232,
+        -2.7263756803133408
+      ],
+      [
+        0.3368682365668206,
+        0.07119679423396257
+      ]
+    ],
+    "structural_family_key": "4f1a1e432a70119ac3d837d911be40a621c756b65e200c7361ad6ac7bf32f695",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 9.808776660946311,
+    "coefficient_fit_seconds": 0.1601400412619114,
+    "latent_rollout_seconds": 0.08168927021324635,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.24643879383802414,
+    "internal_holdout_field_mse_before_adaptation": 0.00095117835035275,
+    "field_score_seconds": 15.987567139789462
+  },
+  {
+    "text": "v+w*p\\\\u-v\\\\w-u*p\\\\-p+u",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        0.584412625452855,
+        -0.009087924359315255
+      ],
+      [
+        -0.9766040811399395,
+        -0.09327183299136488
+      ],
+      [
+        -0.39008951368462846,
+        -0.18452092607482748
+      ],
+      [
+        -0.07119679423396247,
+        -0.3368682365668204
+      ]
+    ],
+    "structural_family_key": "a799b80739a6385d315dc8f3311222f432ab63cddbf0a6628fb1cba8196aa84f",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 10.614901017406227,
+    "coefficient_fit_seconds": 0.15792528167366982,
+    "latent_rollout_seconds": 0.09578214772045612,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.2583151739090681,
+    "internal_holdout_field_mse_before_adaptation": 0.0010013324076359575,
+    "field_score_seconds": 15.91532633639872
+  },
+  {
+    "text": "u*v+w\\\\v*w-u\\\\w*p+v\\\\p*u-w",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        -0.06989052645083124,
+        0.1774787940554713
+      ],
+      [
+        0.037733379319556136,
+        1.2318583791256574
+      ],
+      [
+        -0.07887715906477616,
+        2.4141915162659227
+      ],
+      [
+        -0.019997633291220104,
+        -0.4583372243880342
+      ]
+    ],
+    "structural_family_key": "ad4137e3ef9bd830599a88554be91e1cbf838d4612bd4292e29cbf3f4f67d363",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 11.027712827898995,
+    "coefficient_fit_seconds": 0.15767288580536842,
+    "latent_rollout_seconds": 0.08080770820379257,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.23911491595208645,
+    "internal_holdout_field_mse_before_adaptation": 0.000894906562343185,
+    "field_score_seconds": 16.28005030937493
+  },
+  {
+    "text": "1+u*w\\\\v+p\\\\1+v*p\\\\-u+w",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        -0.21111125513994733,
+        -0.0075049687388444985
+      ],
+      [
+        1.0879512736969226,
+        -2.317700810917639
+      ],
+      [
+        4.710388355343545,
+        -0.09621296870420948
+      ],
+      [
+        0.17257643534740189,
+        0.4085573401835423
+      ]
+    ],
+    "structural_family_key": "7b2c9db363e728705a0379f6d4a60dc5fcacc47229b264013887a09c97488bef",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 11.393138636920813,
+    "coefficient_fit_seconds": 0.1578438002616167,
+    "latent_rollout_seconds": 0.10519196838140488,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.2654124852269888,
+    "internal_holdout_field_mse_before_adaptation": 0.0009820412993284966,
+    "field_score_seconds": 15.791713161394
+  },
+  {
+    "text": "v+w\\\\-u+p\\\\u*v-w\\\\v-p",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        0.9689445865304042,
+        0.4178877282451734
+      ],
+      [
+        0.4238931670608365,
+        -1.890228944435837
+      ],
+      [
+        -0.07588249671081544,
+        -0.0676962238605844
+      ],
+      [
+        3.106544279463326,
+        1.0562075158008482
+      ]
+    ],
+    "structural_family_key": "826deec7da8977d8fc3806d56b296b6f9cdc5cd5a561f9d95e7ecc2800f67a36",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 8.996033035057613,
+    "coefficient_fit_seconds": 0.15919009782373905,
+    "latent_rollout_seconds": 0.0926987063139677,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.25265894271433353,
+    "internal_holdout_field_mse_before_adaptation": 0.0008315864220703604,
+    "field_score_seconds": 15.731445737183094
+  },
+  {
+    "text": "1+v*w\\\\u-p\\\\1+w\\\\-u+v",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        2.750523496465464,
+        0.02288573495829659
+      ],
+      [
+        -0.4238931670608365,
+        1.890228944435837
+      ],
+      [
+        0.1804476182349348,
+        -0.019349037802343615
+      ],
+      [
+        0.8608540574924624,
+        2.69587613677002
+      ]
+    ],
+    "structural_family_key": "5ff430c6dc1d8ee22b37910732f265d3547901ea65f4c046aa142fbeaf62de8f",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 9.350248222603579,
+    "coefficient_fit_seconds": 0.16129928641021252,
+    "latent_rollout_seconds": 0.08706113509833813,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.24878234416246414,
+    "internal_holdout_field_mse_before_adaptation": 0.0008677175624255428,
+    "field_score_seconds": 14.124057032167912
+  },
+  {
+    "text": "u+w*p\\\\-v\\\\w+u*p\\\\-p+v",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        0.03502457064165484,
+        -0.001485453894937853
+      ],
+      [
+        0.006832306804454313
+      ],
+      [
+        -0.39008951368462846,
+        0.18452092607482748
+      ],
+      [
+        1.0562075158008501,
+        3.1065442794633293
+      ]
+    ],
+    "structural_family_key": "a5977f9f8218af140f160eb35b3309d42e21e6b3afce0262e9169eadd2ed6651",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 9.015673265506251,
+    "coefficient_fit_seconds": 0.15780411288142204,
+    "latent_rollout_seconds": 0.07042737491428852,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.23060552403330803,
+    "internal_holdout_field_mse_before_adaptation": 0.0008109850929075084,
+    "field_score_seconds": 11.906863454729319
+  },
+  {
+    "text": "v*p\\\\u+w\\\\-v+w*p\\\\1-u",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        -0.07229498169787443
+      ],
+      [
+        -1.1357115772728927,
+        -0.5041902191363387
+      ],
+      [
+        -2.4141915162659235,
+        -0.07887715906477615
+      ],
+      [
+        0.4228656916339992,
+        0.3320845478633901
+      ]
+    ],
+    "structural_family_key": "6360fea8f98459f1fac5ff7642a6291329b8c92777fec02d2415d806dc9e4ac1",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 10.481642253003187,
+    "coefficient_fit_seconds": 0.16091617196798325,
+    "latent_rollout_seconds": 0.08443447202444077,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.24771900102496147,
+    "internal_holdout_field_mse_before_adaptation": 0.0008876560189671948,
+    "field_score_seconds": 14.371140467002988
+  },
+  {
+    "text": "1+w\\\\-u+p*w\\\\v-u\\\\-p+w",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        -10.386140029483093,
+        0.5853056223003661
+      ],
+      [
+        0.2692245503061055,
+        -0.04785556594587662
+      ],
+      [
+        1.6980585035470181,
+        1.0963877163812976
+      ],
+      [
+        -3.132676455045398,
+        2.135056284077467
+      ]
+    ],
+    "structural_family_key": "9d885e480e2b2ed56c6b85715f0fb78e5c46778f426509ca6bc201f6d20d4482",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 11.324770164255945,
+    "coefficient_fit_seconds": 0.16538066044449806,
+    "latent_rollout_seconds": 0.07137518934905529,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.23716636188328266,
+    "internal_holdout_field_mse_before_adaptation": 0.001029824240297101,
+    "field_score_seconds": 14.522651867941022
+  },
+  {
+    "text": "u*v+w\\\\-v+p\\\\1-u*w\\\\-p-v",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        -0.06989052645083124,
+        0.1774787940554713
+      ],
+      [
+        -1.0879512736969226,
+        -2.317700810917639
+      ],
+      [
+        -1.1899451022244916,
+        0.05357801699292066
+      ],
+      [
+        1.0562075158008501,
+        -3.1065442794633293
+      ]
+    ],
+    "structural_family_key": "585ab5f1d9a42f637e4ac879d70735d4485ef3e59410a39b542fbb793e89d442",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 9.535592363324344,
+    "coefficient_fit_seconds": 0.16257420182228088,
+    "latent_rollout_seconds": 0.08390934020280838,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.24886581674218178,
+    "internal_holdout_field_mse_before_adaptation": 0.000818306244188268,
+    "field_score_seconds": 13.761163203045726
+  },
+  {
+    "text": "v+w*p\\\\-u-w\\\\u+p\\\\1-v",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        0.584412625452855,
+        -0.009087924359315255
+      ],
+      [
+        1.1357115772728927,
+        0.5041902191363387
+      ],
+      [
+        -0.4479508741401107,
+        -1.082426465773822
+      ],
+      [
+        21.719427377343898,
+        -3.783388505456429
+      ]
+    ],
+    "structural_family_key": "1563afc49a3c3aa4735a0c18d46e0550664b2e3630de5cbc7ba4e9f4571fae4e",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 8.754261920813924,
+    "coefficient_fit_seconds": 0.15751396864652634,
+    "latent_rollout_seconds": 0.06619443744421005,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.22409488074481487,
+    "internal_holdout_field_mse_before_adaptation": 0.0008152663634670339,
+    "field_score_seconds": 12.996229777112603
+  },
+  {
+    "text": "u+p*w\\\\1-v\\\\w-v*p\\\\-u+p",
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "p"
+    ],
+    "coefficients": [
+      [
+        0.03502457064165484,
+        -0.001485453894937853
+      ],
+      [
+        -0.1172504277056082,
+        0.013179500354988313
+      ],
+      [
+        0.29734001099467733,
+        0.10441427978045481
+      ],
+      [
+        0.3368682365668206,
+        0.07119679423396257
+      ]
+    ],
+    "structural_family_key": "b7a6e65857049008f24fa54a39952b807b20702484fc1134266e2d41245317cf",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 10.93606276048051,
+    "coefficient_fit_seconds": 0.15816042013466358,
+    "latent_rollout_seconds": 0.07688509300351143,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.235499182716012,
+    "internal_holdout_field_mse_before_adaptation": 0.000973859386252375,
+    "field_score_seconds": 13.230484522879124
+  }
+]

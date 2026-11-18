@@ -1,0 +1,40 @@
+{
+  "text": "u+v\\\\1+w+p\\\\u+v+w\\\\u+p",
+  "fields": [
+    "u",
+    "v",
+    "w",
+    "p"
+  ],
+  "coefficients": [
+    [
+      1.1553409618821369,
+      -0.5902654927868513
+    ],
+    [
+      0.0029444995696427984,
+      -0.8272866008622318,
+      -1.659514277085354
+    ],
+    [
+      -5.37890961911673,
+      4.825815216171517,
+      2.6938892138209645
+    ],
+    [
+      1.7726152787310883,
+      -2.082499961094396
+    ]
+  ],
+  "structural_family_key": "12b9ae0ab80312045799cf1bac35118cc4c3d23bb184f9a4ba135361d7f728f5",
+  "status": "PASS",
+  "internal_holdout_latent_rollout_mse": 1.9176618145154543e-06,
+  "coefficient_fit_seconds": 0.16339156590402126,
+  "latent_rollout_seconds": 0.09339069947600365,
+  "source": "LLM proposal",
+  "training_only": true,
+  "external_validation_used": false,
+  "fit_and_rollout_seconds": 0.2571673281490803,
+  "internal_holdout_field_mse_before_adaptation": 0.004332338311152588,
+  "field_score_seconds": 15.185557784512639
+}

@@ -1,0 +1,1635 @@
+{
+  "snapshot_time": "2026-11-18T13:56:08.868442+08:00",
+  "files": [
+    {
+      "path": "stage3_latent_ode/run_llm_student.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/run_llm_student.py",
+      "sha256": "fcf57982a64fa44ac66d469a2fdadf7652b02a2b33989aa0f68cb0a4cf590c43",
+      "bytes": 22309
+    },
+    {
+      "path": "stage3_latent_ode/train_distill.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/train_distill.py",
+      "sha256": "07f81141bbe7fb4285ecae484c38bf4e3459c2e019c86e0edbc32282f329dbc9",
+      "bytes": 14329
+    },
+    {
+      "path": "stage3_latent_ode/distill_models.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/distill_models.py",
+      "sha256": "e17963de076ff578f2b74a9840ae794f2a5fb5cb4a83c1547a99a0f38391381e",
+      "bytes": 1551
+    },
+    {
+      "path": "stage3_latent_ode/symbolic_dynamics.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/symbolic_dynamics.py",
+      "sha256": "912415c778a116c4bb81db47f167f834e52f3d4f7c63adb1f1ee6132c7c99623",
+      "bytes": 2274
+    },
+    {
+      "path": "stage3_latent_ode/candidate_rules.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/candidate_rules.py",
+      "sha256": "b231ff60c5e219ea9a0f0b1c7e6bee1668b79768d6a9576c19a3a85a7d1987f8",
+      "bytes": 2895
+    },
+    {
+      "path": "stage3_latent_ode/llm_equation_proposer.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/llm_equation_proposer.py",
+      "sha256": "fff468da5d507c980db26db8bfb458fc105622858d6c97f4668967170000f74c",
+      "bytes": 3463
+    },
+    {
+      "path": "stage3_latent_ode/unet_explicit_student.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/unet_explicit_student.py",
+      "sha256": "0c8b181d4221e94018cf9524bc423fd39244a305395bb62704bc971cd98ea643",
+      "bytes": 2388
+    },
+    {
+      "path": "stage3_latent_ode/prepare_full_student_cache.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/prepare_full_student_cache.py",
+      "sha256": "f93c5b648929ebf632855f5ab1eb6e363b260b378cc0fa4e3001ef2ab839de11",
+      "bytes": 6179
+    },
+    {
+      "path": "stage3_latent_ode/evaluate_frozen_baselines.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/evaluate_frozen_baselines.py",
+      "sha256": "a85b1cf5c0b2d49fe14cf37c4350c9c0fdd450ab17c7ae796e353d4240aa5ead",
+      "bytes": 5592
+    },
+    {
+      "path": "stage3_latent_ode/evaluate_frozen_student_test.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/evaluate_frozen_student_test.py",
+      "sha256": "7e17f127a1ddac5f4069059c2896bb164df989682a74f1ca1abe7ddd8881fd70",
+      "bytes": 5590
+    },
+    {
+      "path": "stage3_latent_ode/test_candidate_rules.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/test_candidate_rules.py",
+      "sha256": "cb684b59456e9703803b1e6154c9e56beb6f4d68e0eb43f632591b156488b8e6",
+      "bytes": 1011
+    },
+    {
+      "path": "stage3_latent_ode/test_batching.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/test_batching.py",
+      "sha256": "19905f4add43aa67f1bc9d981b43bdf57fc0fcab03e9c65e63d706f5071f1e98",
+      "bytes": 965
+    },
+    {
+      "path": "stage3_latent_ode/test_joint_loss.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/test_joint_loss.py",
+      "sha256": "c412d6b26b4b4fdc405a65a559786d8316355b4746f044384f7d9864790da351",
+      "bytes": 2285
+    },
+    {
+      "path": "stage3_latent_ode/joint_loss.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/joint_loss.py",
+      "sha256": "07913ef573f4cea8ad8e7ef31cb0ac9dd3542177b417b122d955fe601a31a092",
+      "bytes": 1195
+    },
+    {
+      "path": "stage3_neural_pde/models.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/stage3_neural_pde/models.py",
+      "sha256": "b16238ee0e5536fa7ef57ba60fb03ac274bced409ca64c65a34a2d5008e7e273",
+      "bytes": 1591
+    },
+    {
+      "path": "ast_bpe_multifield_v1/ast_runtime.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/ast_bpe_multifield_v1/ast_runtime.py",
+      "sha256": "f49f1f47a36738d5fac198b5923152963871247308a40767a0dc74959638c9f3",
+      "bytes": 13640
+    },
+    {
+      "path": "ast_bpe_multifield_v1/pipeline.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/ast_bpe_multifield_v1/pipeline.py",
+      "sha256": "6e74f101837256d02fafb98c811e5021d8c94ade25cd41b7196dab7d519caf40",
+      "bytes": 6767
+    },
+    {
+      "path": "ast_bpe_multifield_v1/grid.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/ast_bpe_multifield_v1/grid.py",
+      "sha256": "2e07c2ff2b499247609da89dfe4190f9aa534868f15bbcd9f5d3acc25ba5a1d9",
+      "bytes": 2282
+    },
+    {
+      "path": "ast_bpe_multifield_v4/multitrajectory_data.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/ast_bpe_multifield_v4/multitrajectory_data.py",
+      "sha256": "c2c6a19c80422dfe39fcbce0d4b8b216154cc1a174fa1755419e5644ee7f553b",
+      "bytes": 15064
+    },
+    {
+      "path": "ast_bpe_multifield_v4/runtime.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/ast_bpe_multifield_v4/runtime.py",
+      "sha256": "e02b5e84fce7a81ac61b13f8da85d63b41c88510a3caccd405aa1c1094874867",
+      "bytes": 6140
+    },
+    {
+      "path": "results/global_d2_teacher/progress.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/progress.json",
+      "sha256": "8118ab442e22564ab314ffde3a2fc6a3a29b774e5c68bb7f930cea2a840c426b",
+      "bytes": 36639
+    },
+    {
+      "path": "results/global_d2_teacher/config.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/config.json",
+      "sha256": "811fe03a81f8ae6191b9f20d09051a69da75579c1d3f905cc2049ff1b8346d63",
+      "bytes": 675
+    },
+    {
+      "path": "results/global_d2_teacher/protocol.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/protocol.json",
+      "sha256": "afb9aa3496b8345ad06c8dfa49694e51799f2ec5b2c06aebded37f5c30c32308",
+      "bytes": 2021
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_1/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_1/selected_equation.json",
+      "sha256": "50caedaad1b1d9266ef78a020b9d91f735131d9cc5c5fc600d438bd6e33c2159",
+      "bytes": 697
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_1/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_1/feedback.json",
+      "sha256": "d94e74298d390dfb053c2a256ab5c9f72efa1dd22f578b85ba386b5c632ea7eb",
+      "bytes": 8148
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_1/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_1/data_summary.json",
+      "sha256": "5abe13ecdd28ddaf10e985e8c73e3cd30fa6d24fa36c64b4fa10b09385ee32b6",
+      "bytes": 20403
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_1/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_1/post_epoch_feedback.json",
+      "sha256": "1ec1bd9e3228d02ab3573a368ca91fe86571f4d835ab5f10482093efbc819ff4",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_1/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_1/teacher_epoch/training.json",
+      "sha256": "8ea4526029cf514ea9539f7c0c0185d1effb5c374379a70c8bd806100f0eaf6e",
+      "bytes": 530
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_1/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_1/response_1.json",
+      "sha256": "c646112993c479de3b84549b0ab007865cee7613a6123e95e3f490c16372bace",
+      "bytes": 793
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_1/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_1/response_2.json",
+      "sha256": "0d19d1c45aa5c542e09bb10606e8b4f4e20ac2a057abc7441a6c124736397820",
+      "bytes": 797
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_1/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_1/response_3.json",
+      "sha256": "014a16db7c50aea3c567163b08c96e54e08958e4a4c74fd1f31241ef32e91797",
+      "bytes": 801
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_2/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_2/selected_equation.json",
+      "sha256": "8d00889f9a13e771f59886671118047b59db73f41a293dfdfbb88f2df932e0bf",
+      "bytes": 725
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_2/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_2/feedback.json",
+      "sha256": "9aeaac1c467848407e8e529abf1fa6b5f391140c86636cd411a5f157619a67e7",
+      "bytes": 16226
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_2/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_2/data_summary.json",
+      "sha256": "8346638d17e8fe1d887646ceaf46648926cedf991a7b1a3c3392283a2f68ed48",
+      "bytes": 19699
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_2/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_2/post_epoch_feedback.json",
+      "sha256": "d41a25f6acee93e35fe2b8958c6c7f478ac4c108cc1808d6fa70399ec2594737",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_2/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_2/teacher_epoch/training.json",
+      "sha256": "1128d5d41b100611846000c7e7c5d049eff2b7a45dd8a6949f6410bff86b5614",
+      "bytes": 531
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_2/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_2/response_1.json",
+      "sha256": "9f9e93e75f50fdebfd8f39bc0fd5fffe17f12720f202794f40b3239374994b9e",
+      "bytes": 820
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_2/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_2/response_2.json",
+      "sha256": "ca5c45bc6171a79b29eaaa02f36ff011d32878465d271af808f559c4e80ff8d6",
+      "bytes": 854
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_2/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_2/response_3.json",
+      "sha256": "3bde4a66e6f150a844ddf57f71e630d02766250852b6026fdaaa153e46a34b6e",
+      "bytes": 821
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_3/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_3/selected_equation.json",
+      "sha256": "ae54d293464ef08cff63117a16cd3473a0d7a406d847cccd0e25b665e9821681",
+      "bytes": 691
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_3/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_3/feedback.json",
+      "sha256": "9b8ff02eaa6b9b84a9ab963948d043f7bf3147c1421df07630356c078cf7d9a1",
+      "bytes": 14770
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_3/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_3/data_summary.json",
+      "sha256": "2abe3325f9fabb07b91ac7546a00ee11947871672f5eaf7a1d7b8bdd870f34f4",
+      "bytes": 19370
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_3/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_3/post_epoch_feedback.json",
+      "sha256": "985a64e3b7ca6a3b0bc93131d99ded4a38673d2a3d15f0c892b8564c9dca5881",
+      "bytes": 160
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_3/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_3/teacher_epoch/training.json",
+      "sha256": "911d871f2c875c625ae0499ac8066b067d8a04123d68b72763cdb688a1b44699",
+      "bytes": 531
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_3/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_3/response_1.json",
+      "sha256": "b459edd70e92d2c419aff3f34eb193a1c6af5fd745a9a705b6732ff42ef71a2b",
+      "bytes": 899
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_3/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_3/response_2.json",
+      "sha256": "5015a411568cdd62f9c34b01a4878be129e71b2a1c459c4b380b8db65e8771a8",
+      "bytes": 837
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_3/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_3/response_3.json",
+      "sha256": "1e0ed2759659de58a53f172b66f3270e21bd4ca107ee8f3b00e1dd89dbae38a0",
+      "bytes": 941
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_4/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_4/selected_equation.json",
+      "sha256": "9d8291b35a8bcbfaa37f6a61a6f6b4fe92027c70245e3bbf9211088d5feddd21",
+      "bytes": 690
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_4/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_4/feedback.json",
+      "sha256": "184ab87ab3fcf0ef4195122dc405084890eeb1e5de554a90032c8beebc8aa25f",
+      "bytes": 10500
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_4/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_4/data_summary.json",
+      "sha256": "73dcd57a18ce2a94842841f9ddd26a9cdafddf48c508cefa9ebeaa184f5e6a81",
+      "bytes": 19315
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_4/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_4/post_epoch_feedback.json",
+      "sha256": "ccaa7bae651a863ed1071cc352a26d8b65139bc85e4a6b13341d0df84d9924b4",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_4/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_4/teacher_epoch/training.json",
+      "sha256": "faabad97e89e36e42d7e1193ec83d950fe5f2208da2cc03927fb2690ead630f8",
+      "bytes": 531
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_4/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_4/response_1.json",
+      "sha256": "3f2820cdb7971f31abed3f7d8d9752b2820c6d618e479028916ce6e094a921e1",
+      "bytes": 168
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_4/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_4/response_2.json",
+      "sha256": "ae66cf3da54220bc5da20d58c924d159d6d104efddbb9a7bd1d0b6fba246c314",
+      "bytes": 798
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_4/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_4/response_3.json",
+      "sha256": "8a6a6170f16f6f8a93fae190363dd4d71c04657b13444364ad3475eefbb81617",
+      "bytes": 829
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_5/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_5/selected_equation.json",
+      "sha256": "ec731e8011df684308caf24075e261d55d49d7cadfc82fb771eb53ad8aa8ea86",
+      "bytes": 722
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_5/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_5/feedback.json",
+      "sha256": "99bc18fac24449d5dd2a2f9c3c5a368503858be6a2cd06ee7ad1adbe86c42c4d",
+      "bytes": 12646
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_5/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_5/data_summary.json",
+      "sha256": "78749f03b6b15047e378cb7eb47401602b803c7dc4317f736c0a2cd5e10a8718",
+      "bytes": 19318
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_5/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_5/post_epoch_feedback.json",
+      "sha256": "ff6b67addb8a77c08d70d638b693f261baaa29f5829bdd5d50d09196f38f86c9",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_5/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_5/teacher_epoch/training.json",
+      "sha256": "5f6d924e7329e4a47d418a187d20d27422c1de367ed88256e5089536ce3a09f8",
+      "bytes": 531
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_5/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_5/response_1.json",
+      "sha256": "de6659d4806feb604892a9d3af94f5f99c2613cca43767a8d18c95ea486dd516",
+      "bytes": 344
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_5/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_5/response_2.json",
+      "sha256": "684326011c58153dd61e66e4e6b0f289a03497406737f96bfc70c20b7b074866",
+      "bytes": 810
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_5/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_5/response_3.json",
+      "sha256": "fa7f039b9b28506d076579ed1d033db645ed75b4a644d58aebfda31e3825ca6f",
+      "bytes": 957
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_6/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_6/selected_equation.json",
+      "sha256": "1a4c45b331635ef8a8736f7ebc18acabc05c23c5039f78fb65310b27d2761b4b",
+      "bytes": 750
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_6/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_6/feedback.json",
+      "sha256": "c3014a6afb15d1872836878fcf762557ede8a38a91872d3df5ef0537187058d1",
+      "bytes": 18695
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_6/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_6/data_summary.json",
+      "sha256": "4fb99a57f5ce103817d676bc9388c9d307b0b8c6625437be87343b6be5c99e33",
+      "bytes": 19302
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_6/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_6/post_epoch_feedback.json",
+      "sha256": "08ba0fbed63091042dfd29af3301020ae61f138bfc37ce9c19988933fff9d6ae",
+      "bytes": 160
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_6/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_6/teacher_epoch/training.json",
+      "sha256": "16ea17166a82dfa71eb662d522948c112e30917e933f1b1e84e141e3553e9ab2",
+      "bytes": 531
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_6/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_6/response_1.json",
+      "sha256": "b19287874612e72851b45ebde7d7f1e0561ad2eccbf3674c7fd6582baf9982ba",
+      "bytes": 1010
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_6/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_6/response_2.json",
+      "sha256": "3fb2f3b08726038e7e22d72e20a96c34c994696333bb79bfec49a725ff969bdc",
+      "bytes": 954
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_6/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_6/response_3.json",
+      "sha256": "c57b2040b0a480ed9e3c3baa0459ae12fe6b4e1401f19db5d765c815fb9183f4",
+      "bytes": 949
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_7/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_7/selected_equation.json",
+      "sha256": "acf6be57bdc7a0a002cf91504dcb55f86e77d178f26d78de44fec21810fbbd32",
+      "bytes": 749
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_7/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_7/feedback.json",
+      "sha256": "9bd72b488850ac87ff855e8dd7be4fa893ed0caa14f1347029beddb40495eb71",
+      "bytes": 12076
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_7/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_7/data_summary.json",
+      "sha256": "3850b424d4136216589679df632a28694e0601cf76b5de63d6d58688f3025230",
+      "bytes": 19370
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_7/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_7/post_epoch_feedback.json",
+      "sha256": "0117483ed880d1724550be8b1841b74b6317c08988373d0aaf8dd2830a5d6f7c",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_7/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_7/teacher_epoch/training.json",
+      "sha256": "a82111321a982add419dfed6e76275bc700dfafc08583ee236c2bba0d352a8d1",
+      "bytes": 560
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_7/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_7/response_1.json",
+      "sha256": "f2ccd1acb5278ce8e429380447358e0640c8f016707673364038077b42e2b4e2",
+      "bytes": 821
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_7/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_7/response_2.json",
+      "sha256": "f5e52a6e8d0caaf8c984a86554b646a7b0738e834a485ecce4e029e1a053f996",
+      "bytes": 834
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_7/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_7/response_3.json",
+      "sha256": "daac4eb9d48b5ef13385a29741be6fa9dfd88761d129920442c27ed820126628",
+      "bytes": 853
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_8/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_8/selected_equation.json",
+      "sha256": "a11b096b2d1f6b8ae5eaa185bb203a09eeedc3545d599b4f13b8b3586c9bfb73",
+      "bytes": 691
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_8/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_8/feedback.json",
+      "sha256": "145b87bc414e954f2ecb73a20dd6ee8d49d9807fe4c53cf503d73d6bef3f128e",
+      "bytes": 11003
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_8/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_8/data_summary.json",
+      "sha256": "6ae9162806e240f7eb9a6764b06599451b394727d47ce27386328e795a69e9be",
+      "bytes": 19393
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_8/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_8/post_epoch_feedback.json",
+      "sha256": "18bef83bcc8e1bd0769a5fca422e72b6ebf37d38859265b9bfdf09606db07b46",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_8/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_8/teacher_epoch/training.json",
+      "sha256": "81e19db85d65c66e93efe18ace8a7f5945ba088ce99bafde3ba2baedea7d3525",
+      "bytes": 563
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_8/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_8/response_1.json",
+      "sha256": "ab0781fe828fc27c773281970584218aee207060f0de4b036ebc12a8d3166af1",
+      "bytes": 818
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_8/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_8/response_2.json",
+      "sha256": "87f773014f2e3ce62eab9212b6742b72a65a791d9bb9ca5afccc3e5c25cf1050",
+      "bytes": 813
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_8/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_8/response_3.json",
+      "sha256": "9b558c765d8d0fb02dfd3622539e000882a7d22f08e5ec071d598c6e5ee326b8",
+      "bytes": 821
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_9/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_9/selected_equation.json",
+      "sha256": "722093652bbf0459fba889f0c23a55f59f869e8bbe922b14007e8f7288a7a51e",
+      "bytes": 721
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_9/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_9/feedback.json",
+      "sha256": "9b19a682de715c33c8d15ebe7d5ededfa3c7b553a9cf007cef0b51642854db9e",
+      "bytes": 9050
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_9/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_9/data_summary.json",
+      "sha256": "14682733a32dcbae2c80fbeee0ebb12360376f3a9699a33a36ad48d9cc548b89",
+      "bytes": 19387
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_9/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_9/post_epoch_feedback.json",
+      "sha256": "8f6e1deb8864be9d0d3ebb33ddd7feb0edc1cf4769f9d94cc647c68e1d16201a",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_9/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_9/teacher_epoch/training.json",
+      "sha256": "e863e94231b0fa2a51eedc63c59fd5c226755dc76d889f795e4fbb3e1b900dae",
+      "bytes": 562
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_9/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_9/response_1.json",
+      "sha256": "891c8d8dfffcf8ba192ef8fe239770a2fc1c673ed32934336e39402d2c2c33c3",
+      "bytes": 809
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_9/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_9/response_2.json",
+      "sha256": "75f137f0d42c2d410eaadd31dc215f0f97d76c5d1738ee7d75792da3fc314a8f",
+      "bytes": 817
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_9/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_9/response_3.json",
+      "sha256": "5916160f671612fbce26c9663209b0cb7ab5cbf4e54f659523a48bf719732a91",
+      "bytes": 807
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_10/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_10/selected_equation.json",
+      "sha256": "88546f48251b0f8ab539d378abf10aef029593fb70f1921450118165b5e591fa",
+      "bytes": 750
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_10/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_10/feedback.json",
+      "sha256": "82090c5b995e558309c96c559204f227cbd991170bf01c8abca832074cccccec",
+      "bytes": 16170
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_10/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_10/data_summary.json",
+      "sha256": "1bbc3fd68bbbe415bc6da9521b14d348463097d23259450a89db48c4868247ef",
+      "bytes": 19390
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_10/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_10/post_epoch_feedback.json",
+      "sha256": "c6f01a104bb1b75b95692ddd234e727fd73475f81b885e41253cdf933ab50e2b",
+      "bytes": 159
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_10/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_10/teacher_epoch/training.json",
+      "sha256": "9406a2dc98c028eb6fed7a803975e0fe9136c5d2fdecb3044f8416b7f0ff7f78",
+      "bytes": 563
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_10/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_10/response_1.json",
+      "sha256": "19c28726a20df2971308de535c1275a4d994a54860d2f928a521d75672d95ddd",
+      "bytes": 886
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_10/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_10/response_2.json",
+      "sha256": "925e1a00b0780d22d6c871cc25dffc29584cdd99a842580890f7399c5aa4f883",
+      "bytes": 871
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_10/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_10/response_3.json",
+      "sha256": "96f76d59567b3ffdc8189e10fb5887bae6a1a6d311796149098c0157ae6aa26f",
+      "bytes": 853
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_11/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_11/selected_equation.json",
+      "sha256": "0858e7b7dd6ce7b2c8fb9d91d27bb94b963aaee7a89d80e9f3e37cf7a9819f80",
+      "bytes": 690
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_11/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_11/feedback.json",
+      "sha256": "d2b79820276858cd7d25a7ceed415d6bf2c9991d105aa82b5b9816cc21a12680",
+      "bytes": 16773
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_11/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_11/data_summary.json",
+      "sha256": "8ce7354fcb7b79c5caf534345b7df44f9c2a41a27ebe8582d0c9e631c0f77168",
+      "bytes": 19398
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_11/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_11/post_epoch_feedback.json",
+      "sha256": "bb7f74d2f1974e1c65bed66abef89b5d137166045f4f58643b8b1b90c2b0cb53",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_11/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_11/teacher_epoch/training.json",
+      "sha256": "c8d962e4e3a866dbed5b236f88be6f62af6bea8b87a63f6c50195effc910f8b2",
+      "bytes": 563
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_11/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_11/response_1.json",
+      "sha256": "cf40aa5151eaed2276af78a782bb10d13779493dcd4807ef974b4ed62ec9fdea",
+      "bytes": 824
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_11/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_11/response_2.json",
+      "sha256": "c1e6829e820632c9cf6d1e03391bd21a4f14ce40bba19df8e43609b9d05d7d8e",
+      "bytes": 801
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_11/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_11/response_3.json",
+      "sha256": "d9e5afdfaf640eb6ba337ff68f103da92c7bbc27baa554e7fb1a1e26a0329900",
+      "bytes": 1010
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_12/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_12/selected_equation.json",
+      "sha256": "f8bac4c1f996e76a91fe8c78ec55d7b1d489ee1a24d369231bc92e9d651bf0c0",
+      "bytes": 718
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_12/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_12/feedback.json",
+      "sha256": "b7b2c24149be04f66524da7681e680194a6f48892764cbe5db3ca221141de235",
+      "bytes": 18140
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_12/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_12/data_summary.json",
+      "sha256": "aeb256f8f90bdd452b2ee6a50cb32d1bf966479bf3cd9a037127df75add119be",
+      "bytes": 19389
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_12/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_12/post_epoch_feedback.json",
+      "sha256": "86fb46e6e65c7d438fcfcd5cb0c784980d8c0ea5e512c39c834e05299d828e3b",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_12/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_12/teacher_epoch/training.json",
+      "sha256": "3316845adc1ab90de55d5d7b5bfda3d7ebed6da87fe8515ea7917ce009ca5603",
+      "bytes": 563
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_12/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_12/response_1.json",
+      "sha256": "5d069eaf5f0bb368df1accb9b135bea77d1d184035ffe33358cb391314e2e521",
+      "bytes": 1045
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_12/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_12/response_2.json",
+      "sha256": "f4ef0dc240d25d034e9047b7b7d1a5ea74f903a6c7bf7979780cfe395560df3d",
+      "bytes": 855
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_12/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_12/response_3.json",
+      "sha256": "85cffcd0ab71c821ecdd18207d73357f96408afa516d51769f9d9ea9ae169ea0",
+      "bytes": 825
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_13/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_13/selected_equation.json",
+      "sha256": "99c27f69d3069c552d38d6b15e99713d9057c007a0bff6dc50c465d5c0f516ec",
+      "bytes": 690
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_13/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_13/feedback.json",
+      "sha256": "fc260f1cdb3d63bda1ff7053132673e0ed7f27637b3990e14e31d760d62346a0",
+      "bytes": 15277
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_13/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_13/data_summary.json",
+      "sha256": "9e09ea60b4fbd22ce4a2e2fdccb54ca6a0f11016c38f2b179bd111b3fe226886",
+      "bytes": 19392
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_13/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_13/post_epoch_feedback.json",
+      "sha256": "f5cf51517e03ee8c803cd0107eb9c71e126b783bcc5caa74e1d6ca3725368b0c",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_13/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_13/teacher_epoch/training.json",
+      "sha256": "7a3544e28ac39af66f1112aaab65494c60856852c1fa747ef098fa9cf3754283",
+      "bytes": 563
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_13/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_13/response_1.json",
+      "sha256": "1ef21e1ad5097ac76ef824d741aec4ecc47219a0e826710f3202b0a54f9bf798",
+      "bytes": 901
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_13/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_13/response_2.json",
+      "sha256": "1a4c5367ded485aefefd89ebcbe04212032f6e6db8a7fbb923ed6ae78e8d2a44",
+      "bytes": 829
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_13/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_13/response_3.json",
+      "sha256": "bcfd680689ce56d0d4c33a37ecfc0790723d0d650f963a8192d675f7d3a68fe8",
+      "bytes": 861
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_14/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_14/selected_equation.json",
+      "sha256": "2318a661b986f894f88adbd90632b13f4aca66af94669522d80253dc0f19b4bb",
+      "bytes": 688
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_14/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_14/feedback.json",
+      "sha256": "fbb47b34b8adf6a6432e3b8a9b3ca1412217b28ca2c2b9299dd2c0cb2f90bc99",
+      "bytes": 16751
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_14/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_14/data_summary.json",
+      "sha256": "bdbcd09bf4ab93d70e7d1a714e86f13f7ef7417b1c4b15ba9bb6d2035433ee3c",
+      "bytes": 19378
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_14/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_14/post_epoch_feedback.json",
+      "sha256": "be8451234257b28fe2a53ddd26114e6a76ee4884debe14e8cd7ec4f1a230ae2b",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_14/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_14/teacher_epoch/training.json",
+      "sha256": "5382f8f63c52489637733e085cd8ee1251f89746b36c2b8a1502373bc82326a3",
+      "bytes": 563
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_14/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_14/response_1.json",
+      "sha256": "c05c525010c3910a5cf0381efbf5840bdcb9f85a91a2ad9d08b0a12d06a09075",
+      "bytes": 839
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_14/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_14/response_2.json",
+      "sha256": "cb70e8cea91100dcedad76574f396a96c69214b92e18933f8b57358c6559455a",
+      "bytes": 858
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_14/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_14/response_3.json",
+      "sha256": "2347b968b861a039bb071f09ca435ae78815bbccff23cb25b1d1355bda2f587b",
+      "bytes": 898
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_15/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_15/selected_equation.json",
+      "sha256": "51d30efed9a04df21bd99a9385e2b3d18fe9e2683b829318ccf3bf5f95e4f8ac",
+      "bytes": 747
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_15/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_15/feedback.json",
+      "sha256": "2c2220ecd51b0f18d1e2b52b90aefb8b4a29ae77a7109eee40fa6a4030b418e3",
+      "bytes": 10993
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_15/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_15/data_summary.json",
+      "sha256": "71f1e7409bed87b097166af80e2b6fc27a3257a3cfbc74e82a2706ecea402862",
+      "bytes": 19407
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_15/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_15/post_epoch_feedback.json",
+      "sha256": "8173a6aaa0d4b7a00eded48dbd5bc8286e3792fd258ff7f24deb032b34bd49b2",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_15/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_15/teacher_epoch/training.json",
+      "sha256": "e1d9c260fb3e5df55f292f84af5e5d13e39530d3a0ade7e1345a653c9ed2e2dd",
+      "bytes": 562
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_15/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_15/response_1.json",
+      "sha256": "98da3c736dc6dcf88db2cad3a1385f6293a899449355e322c79e8e1ba3908ae0",
+      "bytes": 447
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_15/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_15/response_2.json",
+      "sha256": "2fc586c10cb9aae7fded3ac7a59718a3dfddfb7a9a3bba8e3f605d2734d9ffab",
+      "bytes": 821
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_15/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_15/response_3.json",
+      "sha256": "26f0a90954133e151989400f796d11ab2e2b1f3659091c242847eed9020fbd31",
+      "bytes": 869
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_16/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_16/selected_equation.json",
+      "sha256": "f4b76aa25373591e5b8b60987392d9c9931e830574b4a0c396c638659fef332e",
+      "bytes": 721
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_16/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_16/feedback.json",
+      "sha256": "6a414e92becd5a37c907098d37140409b44dd4cb7b8bba3ad5804211c9c9bb82",
+      "bytes": 14915
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_16/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_16/data_summary.json",
+      "sha256": "bae599f7dce84d9b58b22f3dfea33dca26514961c62f1b70462fb0647d086760",
+      "bytes": 19429
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_16/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_16/post_epoch_feedback.json",
+      "sha256": "12a9670c2068b7e415ffc7a8fd742fede89fc49311823adf38f12457218e3546",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_16/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_16/teacher_epoch/training.json",
+      "sha256": "093a85db33cd78a5fb7ca00d250cc5a54bd5ef836cc48d7e4c5b7b9ba9bd9f79",
+      "bytes": 563
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_16/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_16/response_1.json",
+      "sha256": "a1f0ca940845f37df9d6bc0a2cadb81bb0a52e583f5fee41df05d55cb70d5ac9",
+      "bytes": 830
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_16/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_16/response_2.json",
+      "sha256": "c0145e01d82e354629c00dc363b2908d191cf74c62ffcde0f259a50617835411",
+      "bytes": 821
+    },
+    {
+      "path": "results/global_d2_teacher/cycle_16/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_16/response_3.json",
+      "sha256": "c36e8f4dea4be51370579a5ff5dcb9ea743e1b61007296a6ff776c71d3d33371",
+      "bytes": 885
+    },
+    {
+      "path": "checkpoints/global_d2_teacher_best.pt",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_v1/cycle_16/teacher_epoch/student.pt",
+      "sha256": "557448f604f065b5be5a4e5c754769518246d583eda8e338eb49a74d1d1aa2ee",
+      "bytes": 1395315
+    },
+    {
+      "path": "results/global_d4_teacher/progress.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/progress.json",
+      "sha256": "dfbf2ec37d38827d3ee304606d50a5216bc9d7af1f6b86e2d2c2cb1968cce16a",
+      "bytes": 17654
+    },
+    {
+      "path": "results/global_d4_teacher/config.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/config.json",
+      "sha256": "56a4623bf96724d9f16d25b281e335a1fcd1026bf7afc97ba84112f25524e758",
+      "bytes": 690
+    },
+    {
+      "path": "results/global_d4_teacher/protocol.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/protocol.json",
+      "sha256": "8855fbc6353db226e4bb8402e026c0b428ba88464f70f07a1c169b808826197e",
+      "bytes": 2021
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_1/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_1/selected_equation.json",
+      "sha256": "286491a59723e632ce557c98687e129ab3e581c6621686a632b05c9f98d1e52f",
+      "bytes": 968
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_1/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_1/feedback.json",
+      "sha256": "ad34761f2cd77082de0162fd200605499e55d18908ec75aa7ef6e857087646a9",
+      "bytes": 21337
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_1/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_1/data_summary.json",
+      "sha256": "1f48aaa9d235c4f64390b97b9b0128bf637c91c289fc0da7c9180601a039243f",
+      "bytes": 31393
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_1/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_1/post_epoch_feedback.json",
+      "sha256": "d5b6bed5e1fe52231fd74e07ca5358881d2b495dcca430b9b95cd27e72bbf613",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_1/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_1/teacher_epoch/training.json",
+      "sha256": "85ba732fffed0858c251b855057866e52733227258941dd792a4f5bdb2612013",
+      "bytes": 528
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_1/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_1/response_1.json",
+      "sha256": "5e2102380766975c0f16c74361060a5c42d41ec46ccefdb1f7f7a87bdef53a5c",
+      "bytes": 1105
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_1/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_1/response_2.json",
+      "sha256": "a93d8d704daabd9d91f3d15bdffb83107c15904f2258a769f784506fb6b93960",
+      "bytes": 1209
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_1/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_1/response_3.json",
+      "sha256": "fd0426ff8b098adfd1cc0510e798e64bf220eec6330d1736c172d147b61f8b3c",
+      "bytes": 1277
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_2/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_2/selected_equation.json",
+      "sha256": "d3895995de98cda67a45a09a294d4f44b8ac6cab1198ed74dc192a6147cbb7ac",
+      "bytes": 884
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_2/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_2/feedback.json",
+      "sha256": "778e5c6b1c39cb66f5126bf9482650cab00082f1db2cb038ebfecce851994439",
+      "bytes": 18564
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_2/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_2/data_summary.json",
+      "sha256": "ccf0348327d0afa218b96549e1c35185a9c5b9774055e0c3630d441abde10c1f",
+      "bytes": 29510
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_2/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_2/post_epoch_feedback.json",
+      "sha256": "1989310a66adecce19b8647b5ba85f1fd89fc3b47298d153b9189e68b02cbebd",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_2/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_2/teacher_epoch/training.json",
+      "sha256": "4e6f9864394beb938d18171b24b6a936cb4024b035a657ef561cef5fa5abdd92",
+      "bytes": 562
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_2/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_2/response_1.json",
+      "sha256": "e0b98253f8294e2202f4d960e9e90ea34614e18c9a6adeebf8afa2d56465d43c",
+      "bytes": 1130
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_2/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_2/response_2.json",
+      "sha256": "2fafadf7e690e7fc810049db412fa6417dcf3c4f6e6436d2d07f68fccc9d1bc9",
+      "bytes": 1165
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_2/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_2/response_3.json",
+      "sha256": "e7aa4c7132c555d7a4a3fc10ad7e1946ec773bf20f7dbbd71e88707c9253a710",
+      "bytes": 1214
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_3/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_3/selected_equation.json",
+      "sha256": "bea906cafc7960d3202c5b997053a065440681538317135b14e6045adfe811fb",
+      "bytes": 854
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_3/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_3/feedback.json",
+      "sha256": "f8e5eb719cce90e8c3c9badd70fb747a214b4a642f4b91093b814e753807128c",
+      "bytes": 9040
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_3/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_3/data_summary.json",
+      "sha256": "fecca527fa182d32e654d826791bf89559c70e47dd5558cac7534cbecb018bee",
+      "bytes": 29639
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_3/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_3/post_epoch_feedback.json",
+      "sha256": "c3726f829286588b845959495687a351ce24f9d0f80e1126b047a357c274b354",
+      "bytes": 160
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_3/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_3/teacher_epoch/training.json",
+      "sha256": "853accf927ef7f4bf496445b8b94356acf8063351fb187b4ef4cf56b74d9ee1e",
+      "bytes": 561
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_3/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_3/response_1.json",
+      "sha256": "35d19f3712a73d7486373e49e417d60a2390aaa3dae58f3d5288d13941e125f3",
+      "bytes": 1105
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_3/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_3/response_2.json",
+      "sha256": "2ce73c9f98a7c986dec92ec8e5d6f73f8c7cab1918a6614ac2f57227c6dd44b3",
+      "bytes": 1105
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_3/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_3/response_3.json",
+      "sha256": "c4f746a28ce30a03d009de1d4294e18a4d7e8fe6e87fdc4c5354ecba62b7a102",
+      "bytes": 1106
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_4/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_4/selected_equation.json",
+      "sha256": "2378570a281d489414fafe6ab0ede45e2e8ccea6e865493a0712bf813e256a24",
+      "bytes": 824
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_4/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_4/feedback.json",
+      "sha256": "ac500d8d3a10e4f64aeab7fbe9db48c496ba86287c295c94ae2c51c5f068efe2",
+      "bytes": 11180
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_4/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_4/data_summary.json",
+      "sha256": "afb9b67c722a5a46a603492cda7648656f64e0023b9b7d5c92eb6de8bb36816c",
+      "bytes": 29627
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_4/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_4/post_epoch_feedback.json",
+      "sha256": "f54e42db3a67a5f0cce275e24ee62cfed75dad7af1fbbc63975300d840832fb3",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_4/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_4/teacher_epoch/training.json",
+      "sha256": "cd706077b5a110d405b50c65d127c96648d688a2afdf39eb78627fe206637bff",
+      "bytes": 562
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_4/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_4/response_1.json",
+      "sha256": "8ab4601aed32db541bf438f794e72087d21a347857807c48e2d3aa11069449a1",
+      "bytes": 1091
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_4/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_4/response_2.json",
+      "sha256": "0089cb8b5a3f87caae0fc580e93612772b045e31361c065329ebe4a4d4940255",
+      "bytes": 1093
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_4/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_4/response_3.json",
+      "sha256": "d7ff77dc1c9848036bf973f85f23832a658bc884c677ba3249990ec835344161",
+      "bytes": 1101
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_5/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_5/selected_equation.json",
+      "sha256": "a90285b09d8d87dbd6e773db9189ab93511257bcf5b646fe0fc35b8f8ba51607",
+      "bytes": 911
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_5/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_5/feedback.json",
+      "sha256": "5b184c01d367edec37d8cd9e8aa0586d926f95832d55f508dad5fdbd7d4397dd",
+      "bytes": 19176
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_5/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_5/data_summary.json",
+      "sha256": "42529dadc9b8365e1fdfd3511e09755cce174d3f4063494022123dd6ed3cdac8",
+      "bytes": 29571
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_5/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_5/post_epoch_feedback.json",
+      "sha256": "525e6972931546f950c8f277973234f47f6ec83d7e0a175cfbd5da52beb493f1",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_5/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_5/teacher_epoch/training.json",
+      "sha256": "c6a67d4c19356603aa9cad3ba5065ce7c531e80e61b92e37952e5d44e0a548d5",
+      "bytes": 561
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_5/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_5/response_1.json",
+      "sha256": "daed7f46532d376abe603b6dd713a501cb59424e791553740b07c72920df09f4",
+      "bytes": 1293
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_5/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_5/response_2.json",
+      "sha256": "0d3fce0b1656307339908587749212fe48fa7db447e1ab777cdb247fc81049d1",
+      "bytes": 1229
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_5/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_5/response_3.json",
+      "sha256": "3b865e3f92121d79c3443f504211810d55a3d5ffac87884c0cefec95e27b2edf",
+      "bytes": 1125
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_6/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_6/selected_equation.json",
+      "sha256": "8a248ddef1b68ed244698d1b59c5c64033b912f3c4592aeeac83c0497516df4d",
+      "bytes": 893
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_6/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_6/feedback.json",
+      "sha256": "f815e98e1a3919702e63d1cb83f35b15b9907a30bcd4dc311792bfafc43914a2",
+      "bytes": 22860
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_6/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_6/data_summary.json",
+      "sha256": "bfbf278819e8decc0604aaa3a91d59052f106b494b251fca7fccd052eb249346",
+      "bytes": 29532
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_6/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_6/post_epoch_feedback.json",
+      "sha256": "2a60ef6a60606f87f426aef3adaa1efb0d9178360e8cabc29cbec5d83ab60b8d",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_6/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_6/teacher_epoch/training.json",
+      "sha256": "d2a0a8135df375c83a63e8540ddb7bffd88fb575bc82ba16531dbbbb004a4e75",
+      "bytes": 562
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_6/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_6/response_1.json",
+      "sha256": "b8e0dcfb9632b4bf8931f3de1391ef7d4cb6a4d37693f9c4c8e79f4aa925a61b",
+      "bytes": 1229
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_6/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_6/response_2.json",
+      "sha256": "56375e1163ee929bedcdc56b84c865e4d3175baca019343bf6c5f85c4739211d",
+      "bytes": 1288
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_6/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_6/response_3.json",
+      "sha256": "b343ee963f3d27f47a79654113195a5d7ce83accfca764e54daf1dbdfcc8ace7",
+      "bytes": 1260
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_7/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_7/selected_equation.json",
+      "sha256": "f3229ce4c084f65e49cf9e7010a569afb5e2ad761090b6a9da9973942169bdba",
+      "bytes": 923
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_7/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_7/feedback.json",
+      "sha256": "77c86bdefcef2dbd36636e6b9c33ac4983b72bc191e725bfe068d81b85f5608f",
+      "bytes": 21197
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_7/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_7/data_summary.json",
+      "sha256": "12707eafa73db70861764a8a6bd90f7c29caf93d4cb6081f9aaef03fdd2336a8",
+      "bytes": 29498
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_7/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_7/post_epoch_feedback.json",
+      "sha256": "2a6a008d5f26a37939f846fa1627c1cfee01243b1bc283cef7b9572f1ace9b08",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_7/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_7/teacher_epoch/training.json",
+      "sha256": "a998f641511ca018d1e717de77cb8102cefb6d065e52cadb0ead2330e9b7546b",
+      "bytes": 562
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_7/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_7/response_1.json",
+      "sha256": "ed27cb0ab0d70d67fe9c1a3015a4da08c752dccceb096f810f6cbd3fcef107c4",
+      "bytes": 1149
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_7/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_7/response_2.json",
+      "sha256": "826848d60756bbe3ed13781c8445236651f7054e977b8f3201db1734a4623bfd",
+      "bytes": 1109
+    },
+    {
+      "path": "results/global_d4_teacher/cycle_7/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_7/response_3.json",
+      "sha256": "e1f9d9aa4f15ec0d9be78d4c300f07b80ec33ea87866f073ba0e68cab02e1492",
+      "bytes": 1309
+    },
+    {
+      "path": "checkpoints/global_d4_teacher_best.pt",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_7/teacher_epoch/student.pt",
+      "sha256": "eef747b8fff8148f2b9e63d588e8dbbc67194b681b13815f5bbecb01058ebd60",
+      "bytes": 1495899
+    },
+    {
+      "path": "results/global_d8_teacher/progress.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/progress.json",
+      "sha256": "3472ea0417813f5366de1ad0a40498351640e2c957a965bfe280a0a9d93c2745",
+      "bytes": 14775
+    },
+    {
+      "path": "results/global_d8_teacher/config.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/config.json",
+      "sha256": "6ca2c9757d6156e81667ecf06ac5f26db3de249902bc42c8e9e12baedbb13d7d",
+      "bytes": 690
+    },
+    {
+      "path": "results/global_d8_teacher/protocol.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/protocol.json",
+      "sha256": "a5bb4f5f766329889de6a719ff1d3e2fe9ae81f2fc69bd1345c4e5a62c2aad14",
+      "bytes": 2021
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_1/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_1/selected_equation.json",
+      "sha256": "86b7c213b38400ae3b0c34410e2ef74b347e1f22a435261a8ae333d2508064a3",
+      "bytes": 1236
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_1/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_1/feedback.json",
+      "sha256": "7cb3c35074d4a4dec962039076c51bec4bd963c07219ec1064e5a794cedfd417",
+      "bytes": 21545
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_1/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_1/data_summary.json",
+      "sha256": "6b55e292cae0de5d3a1cba9fd2fb0f49598b00b82d4acb16823bba506e516921",
+      "bytes": 52623
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_1/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_1/post_epoch_feedback.json",
+      "sha256": "b1f587dc1e874523ed6ed8efd2fc5a514fcb14cfe30d6f8efacc0591be1be0da",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_1/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_1/teacher_epoch/training.json",
+      "sha256": "367ba7253ca261b8278a8aeab0422a6a787fa68ad4f2907e2855b2093efc1118",
+      "bytes": 559
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_1/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_1/response_1.json",
+      "sha256": "0f79bdb4eee8806570dbd186b0b66ac89000d17dcfee3d33b13e0142c9ced384",
+      "bytes": 1877
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_1/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_1/response_2.json",
+      "sha256": "f540f605b03b48a1f697f8a1c0dffda814f4826931f8262fb71b104ca67bbbdb",
+      "bytes": 1877
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_1/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_1/response_3.json",
+      "sha256": "8ee172f271c0b81d2152114cb31d688aaddff1fbc74c6fd37cf6bf8d39ad476a",
+      "bytes": 2222
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_2/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_2/selected_equation.json",
+      "sha256": "4a62196f07b11ac5bc2906c622fbbe24c4e06629f869f5e78bc54fd4f0f16101",
+      "bytes": 1132
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_2/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_2/feedback.json",
+      "sha256": "d7c489a2e188ebadc111e173c5613e57b53931fef3b50645466f15260a1e2f00",
+      "bytes": 24872
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_2/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_2/data_summary.json",
+      "sha256": "4e9c2dd157d225e2176f40905f5df29b1ab3ac44920d3fc787d66f7fbb86455d",
+      "bytes": 49976
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_2/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_2/post_epoch_feedback.json",
+      "sha256": "250892aed0971be703946cce54a80dce903cdc0cc04b11a1cbc6a09352fb3b2b",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_2/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_2/teacher_epoch/training.json",
+      "sha256": "baa2de6061aabcd04a088988c0e7acda5b207b1581255dc076e5a48e251e1a01",
+      "bytes": 561
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_2/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_2/response_1.json",
+      "sha256": "24d8b0ec467f859d08ffb17492e17ec3d5e64c959c3122036adb25204428a01e",
+      "bytes": 1820
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_2/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_2/response_2.json",
+      "sha256": "e41da8690432df96e974c723ba41bf8496b5e898bd76cd9c210181952198a35f",
+      "bytes": 1816
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_2/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_2/response_3.json",
+      "sha256": "3229675a9cb992eac134c5b01818fecb9f52d0a6a175504981248c29f7c824c3",
+      "bytes": 1861
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_3/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_3/selected_equation.json",
+      "sha256": "0d1b55606df54f1713a3159c3bff2ae391fd611e4f578bf7589b08c0afb7ee7f",
+      "bytes": 1230
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_3/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_3/feedback.json",
+      "sha256": "0ee6f41ecb6ee7d38b87591cfd110a6aed9d76e899b2bd54435351f327ea7852",
+      "bytes": 27321
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_3/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_3/data_summary.json",
+      "sha256": "049e42fcdc91fe8e226d4a8d7e0f962005dffe02092a63103a80b8d7498671c4",
+      "bytes": 49997
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_3/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_3/post_epoch_feedback.json",
+      "sha256": "9daf6d76f8c30dd4b842f5a56692c9f707528e030727d31e599395f677ff69e6",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_3/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_3/teacher_epoch/training.json",
+      "sha256": "a5ed85b84f0fe49f0a9150f962b3e84da69655656c84f277109646a057afc476",
+      "bytes": 562
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_3/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_3/response_1.json",
+      "sha256": "0e6d9acdddc03586d10e2aa98147788d541260e0110b7779903a3de36c5c4506",
+      "bytes": 2057
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_3/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_3/response_2.json",
+      "sha256": "7c35df3636a4cad33c424ffd86448d2b076d6f5bd967fe88e0e242037aa2c1fe",
+      "bytes": 2029
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_3/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_3/response_3.json",
+      "sha256": "b7d7a275128490424666f9b819c617894f4f5f23ab6fcbb459172f11cb150874",
+      "bytes": 2057
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_4/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_4/selected_equation.json",
+      "sha256": "b268198837fcc2c1dab7ba0cac23ffbc53ccccc4e2f0838e47750fa95e0f45c8",
+      "bytes": 1369
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_4/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_4/feedback.json",
+      "sha256": "19c0002b552518be3a1bd841a3fa80dfa06401b542f7713fdae4bbfd2617aae6",
+      "bytes": 27685
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_4/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_4/data_summary.json",
+      "sha256": "45efa6608c5230759e16a00dd62b5d458268c297549933b9fdd098c45a5b1568",
+      "bytes": 49948
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_4/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_4/post_epoch_feedback.json",
+      "sha256": "57453648d0ee337546626066224eafbbd190fe5ae1b344fd228c871f3bae35b3",
+      "bytes": 161
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_4/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_4/teacher_epoch/training.json",
+      "sha256": "6209c44b73350519eede1fd1a13d644b69ff9b53b00a45bd144edd1a923d600f",
+      "bytes": 562
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_4/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_4/response_1.json",
+      "sha256": "15282066c42d11551a0bbe713cc1719790850bb3bff120cb1a7c264b96cb425f",
+      "bytes": 1907
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_4/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_4/response_2.json",
+      "sha256": "72bf8b454f303b32b6fc0dcc9d912aab9ea5122a9c5feba8adad2bf255f9f66b",
+      "bytes": 1926
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_4/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_4/response_3.json",
+      "sha256": "78b6485a0aac27061c1ff5d13e6855d1355dc47c09d6785fca910a5d3852be97",
+      "bytes": 1949
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_5/selected_equation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_5/selected_equation.json",
+      "sha256": "c8b542d05cdbbd156318abb26f530342b8c1ccc9e010d322cb7191fe25a72d27",
+      "bytes": 1223
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_5/feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_5/feedback.json",
+      "sha256": "5b1e23b9f7edadbb0d44bbc207f1cc1cea84defacd679fe1cd8dbd47ba9cce4f",
+      "bytes": 22064
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_5/data_summary.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_5/data_summary.json",
+      "sha256": "3dc803e29d3af0ce0eea7f99d97f11b344b7c894b97b5dbf765494a0c1aae517",
+      "bytes": 49982
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_5/post_epoch_feedback.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_5/post_epoch_feedback.json",
+      "sha256": "dcca973f5b961dfac9a0c6b51670916cce056e567d3728b20e6bd7158b919d0f",
+      "bytes": 160
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_5/teacher_epoch/training.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_5/teacher_epoch/training.json",
+      "sha256": "eb1d62cd30b771284cc763b28b9538f73ed03e718bbd4c6afbb48631ae78f7e1",
+      "bytes": 561
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_5/response_1.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_5/response_1.json",
+      "sha256": "96a3753db77082bf1a1acf073d3c60ace63aee3d5cb6b545d710ed41d04aa50e",
+      "bytes": 1773
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_5/response_2.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_5/response_2.json",
+      "sha256": "7e882a78c5ce3c55f42467f8636d7aff91e5ea0620c520acdd90924c0a368178",
+      "bytes": 2062
+    },
+    {
+      "path": "results/global_d8_teacher/cycle_5/response_3.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_5/response_3.json",
+      "sha256": "2c95e2707b8c81a22af6a24de7d80b16d5c8b1f51d97613fb930a08490c6dcb8",
+      "bytes": 2061
+    },
+    {
+      "path": "checkpoints/global_d8_teacher_best.pt",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d8_v1/cycle_5/teacher_epoch/student.pt",
+      "sha256": "e237755a83ab2a3c28c08fb0cea79f6f0b8612c62358ea4aad752a231ac01676",
+      "bytes": 1697135
+    },
+    {
+      "path": "results/baselines/validation.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/student_full_launch_20261113/baselines_val_all.json",
+      "sha256": "7613c64c607d6c6737b905860c9d7815c13492dca12e36580314d53a9503f345",
+      "bytes": 6380
+    },
+    {
+      "path": "results/baselines/test.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/student_full_launch_20261113/final_evaluation/baselines_test.json",
+      "sha256": "36fd7714cf318e7e2bf44983568ff20de927950d32e91312a4f2112a6e97ceec",
+      "bytes": 6226
+    },
+    {
+      "path": "baseline_configs/unet_cylinder_seen_v1.yaml",
+      "source": "/data1/users/liugang/src/eq-bpe/project/baseline_configs/unet_cylinder_seen_v1.yaml",
+      "sha256": "4bb78b82f10e0662acf790d641ca4eacc7c84ce4f934b62faa2b6a204b2b7b28",
+      "bytes": 671
+    },
+    {
+      "path": "baseline_configs/fno_cylinder_seen_v1.yaml",
+      "source": "/data1/users/liugang/src/eq-bpe/project/baseline_configs/fno_cylinder_seen_v1.yaml",
+      "sha256": "1fc1b759694518e8fa9a9556b320a84636d8f20133211673604a0da71b190679",
+      "bytes": 659
+    },
+    {
+      "path": "baseline_code/train.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/baseline_code/train.py",
+      "sha256": "28239a80495267a5024eae51ef1e8abdede81f3e1109ae127f4443e7f1fd748f",
+      "bytes": 17646
+    },
+    {
+      "path": "baseline_code/unet_formal/train_memory_bounded.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/unet_teacher_seen_formal_20261112/train_memory_bounded.py",
+      "sha256": "f0f7537286053d9b220df1b33c60bc9a2ab3c2b43bf60fba5a37dd159c0f2585",
+      "bytes": 17805
+    },
+    {
+      "path": "baseline_code/unet_formal/optimized_fluid_reader.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/unet_teacher_seen_formal_20261112/optimized_fluid_reader.py",
+      "sha256": "805bf0f2f860dc51f78d23f607f3fccc5e5e5c63195969cf10cb554de33c10e4",
+      "bytes": 23684
+    },
+    {
+      "path": "baseline_code/unet_formal/reader_verification.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/unet_teacher_seen_formal_20261112/reader_verification.json",
+      "sha256": "516691f3d718d2c014742c0de020ddaa81ff9f761d65533e725052d3bca3fc8e",
+      "bytes": 147
+    },
+    {
+      "path": "baseline_code/unet_formal/formal.yaml",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/unet_teacher_seen_formal_20261112/formal.yaml",
+      "sha256": "1239db47082cd190b9c776ed911ca535785b42f70f5fcc7719e74aa7a2b27950",
+      "bytes": 697
+    },
+    {
+      "path": "data_protocol/cache_manifest.json",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/student_full_cache_20261113/cache/manifest.json",
+      "sha256": "a52c3a3279b85c2b5f2c8829c9893e508b1e18966ef10ff1886c0c691d23fe8b",
+      "bytes": 770519
+    },
+    {
+      "path": "release_assets/unet_model_6600.pth",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/unet_teacher_seen_formal_20261112/checkpoints/unet/unet_cylinder_real_False/2026-11-12_13-20-10/model_6600.pth",
+      "sha256": "a27b95ba6f1863f02623fde2740f686ea3339dac7d91c35810ef7ec7ca84d3a0",
+      "bytes": 92172835
+    },
+    {
+      "path": "ast_bpe_multifield_v4/protocol_checks.py",
+      "source": "server ast_bpe_multifield_v4/protocol_checks.py",
+      "sha256": "962b9c4d9ca6942e57581e9b02bae09a4e2b44d5b1e3e45a22360aefbbf71911",
+      "bytes": 9857
+    },
+    {
+      "path": "stage3_latent_ode/batching.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/batching.py",
+      "sha256": "845960102a43cca9af783b608b9a239172b039d8d2c351426ed9520233fb781b",
+      "bytes": 798
+    },
+    {
+      "path": "stage3_latent_ode/joint_core.py",
+      "source": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/code/joint_core.py",
+      "sha256": "e8f98f19761f246ede4d4645df0d1c18d3519524b2636a0c588ae02b69073e23",
+      "bytes": 1378
+    }
+  ],
+  "fno_checkpoint_status": "Historical model_3920.pth unavailable at recorded server path; metrics retained",
+  "student_status": "Training snapshots, not final models",
+  "unavailable_source_artifacts": [
+    "checkpoints/mean_std.pt",
+    "ast_bpe_multifield_v4/data.py",
+    "data_protocol/train_index_real.json",
+    "data_protocol/val_index_real.json",
+    "data_protocol/test_index_real.json"
+  ],
+  "baseline_normalizer_status": "Original mean_std.pt missing; only student/cache two-channel normalization metadata available"
+}

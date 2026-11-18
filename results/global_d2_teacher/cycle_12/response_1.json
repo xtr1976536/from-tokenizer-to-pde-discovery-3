@@ -1,0 +1,61 @@
+{
+  "systems": [
+    {
+      "equations": [
+        "1+u+v",
+        "1+u-v"
+      ],
+      "text": "1+u+v\\\\1+u-v"
+    },
+    {
+      "equations": [
+        "u+v+u^2",
+        "u-v+v^2"
+      ],
+      "text": "u+v+u^2\\\\u-v+v^2"
+    },
+    {
+      "equations": [
+        "1+u+v+u^2",
+        "1+u-v+v^2"
+      ],
+      "text": "1+u+v+u^2\\\\1+u-v+v^2"
+    },
+    {
+      "equations": [
+        "u+v+u^2+uv",
+        "u-v+v^2+uv"
+      ],
+      "text": "u+v+u^2+uv\\\\u-v+v^2+uv"
+    },
+    {
+      "equations": [
+        "1+u+u^2+v",
+        "1+v+v^2+u"
+      ],
+      "text": "1+u+u^2+v\\\\1+v+v^2+u"
+    },
+    {
+      "equations": [
+        "u+v+u^3",
+        "u-v+v^3"
+      ],
+      "text": "u+v+u^3\\\\u-v+v^3"
+    },
+    {
+      "equations": [
+        "1+u+v+u^2+uv",
+        "1+u-v+v^2+uv"
+      ],
+      "text": "1+u+v+u^2+uv\\\\1+u-v+v^2+uv"
+    },
+    {
+      "equations": [
+        "u+v+u^2+v^2+u^3",
+        "u-v+u^2-v^2+v^3"
+      ],
+      "text": "u+v+u^2+v^2+u^3\\\\u-v+u^2-v^2+v^3"
+    }
+  ],
+  "seconds": 12.94967444613576
+}

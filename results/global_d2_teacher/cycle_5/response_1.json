@@ -1,0 +1,27 @@
+{
+  "systems": [
+    {
+      "equations": [
+        "v",
+        "u"
+      ],
+      "text": "v\\\\u"
+    },
+    {
+      "equations": [
+        "u",
+        "v"
+      ],
+      "text": "u\\\\v"
+    },
+    {
+      "equations": [
+        "v",
+        "u*u"
+      ],
+      "x": "",
+      "text": "v\\\\u*u"
+    }
+  ],
+  "seconds": 3.45494581758976
+}

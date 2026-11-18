@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4752132994436902,
+      "val_loss": 0.0010190082284120413,
+      "learning_rate": 0.0001,
+      "training_samples_seen": 8147,
+      "training_samples_total": 8147,
+      "full_training_epoch": true,
+      "validation_samples": 832
+    }
+  ],
+  "best_val": 0.0010190082284120413,
+  "best_epoch": 1,
+  "last_meaningful_epoch": 1,
+  "early_stopping_min_delta": 0.0,
+  "epochs_run": 1,
+  "early_stopped": false,
+  "updates": 679,
+  "peak_gpu_allocated_gib": 7.8755106925964355
+}

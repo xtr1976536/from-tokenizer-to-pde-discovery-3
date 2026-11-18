@@ -1,0 +1,17 @@
+numpy
+scipy
+sympy
+torch
+torchvision
+pyarrow
+pyyaml
+einops
+einops-exts
+rotary-embedding-torch
+torchinfo
+tqdm
+pillow
+matplotlib
+pandas
+h5py
+tensorboard

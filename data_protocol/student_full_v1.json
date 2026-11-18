@@ -1,0 +1,79 @@
+{
+  "data": {
+    "arrow_paths": [
+      "data/realpdebench/cylinder/hf_dataset/real/*.arrow"
+    ],
+    "index_root": "data/realpdebench/cylinder/hf_dataset",
+    "require_full": true,
+    "spatial_stride": 1,
+    "clean_protocol_manifest": "ast_bpe_multifield_v4/clean_real_v1/manifest.json",
+    "clean_protocol_manifest_sha256": "da99a68a751de04054f42982e07148f38e2d7259b475f4832ce24c82f7ce070a",
+    "index_override": {
+      "train": "ast_bpe_multifield_v4/seen_tasks/prepared/seen/train_index_real.json",
+      "val": "ast_bpe_multifield_v4/seen_tasks/prepared/seen/val_index_real.json",
+      "test": "ast_bpe_multifield_v4/seen_tasks/prepared/seen/test_index_real.json"
+    },
+    "effective_index_sha256": {
+      "train": "549671b4aa3559dd3c3f2d3b6df894fec2ef43ea3460104ecbde4685b0642046",
+      "val": "4aa4319fba3ef76fc83679197e7e3cdcb0fef01477c6dc9e8e7e01ea4e161b6c",
+      "test": "c759b47d6a530b70b878c991a9fb9f25705e27881e7e6116aef2f86284bfde32"
+    }
+  },
+  "protocol": "nlp17_seen_20_to_20",
+  "preprocessing_caveat": "upstream temporal filtering causality unverified; previously accepted by user",
+  "profile": "full_student_v1",
+  "latent_dimension": 2,
+  "encoder_decoder_width": 32,
+  "neural_rhs_width": 128,
+  "history": 20,
+  "horizon": 20,
+  "spatial_stride": 1,
+  "train_windows": 8147,
+  "validation_windows": 832,
+  "test_windows": 1853,
+  "reconstruction_epochs": 100,
+  "reconstruction_patience": 10,
+  "neural_warmup_epochs": 100,
+  "neural_warmup_patience": 10,
+  "neural_warmup_min_delta": 0.000001,
+  "symbolic_distillation_epochs": 200,
+  "symbolic_patience": 10,
+  "symbolic_min_delta": 0.000001,
+  "micro_batch_size": 12,
+  "effective_batch_size": 12,
+  "gradient_accumulation": 1,
+  "learning_rate": 0.0001,
+  "teacher_loss_weight": 1.0,
+  "real_loss_weight": 1.0,
+  "rk4_substeps": 4,
+  "search": {
+    "cycles": 5,
+    "unique_successful_candidates_per_cycle": 400,
+    "maximum_sampling_batches": 8000,
+    "shortlist": 8,
+    "candidate_adaptation_updates": 100,
+    "sft_epochs": 5,
+    "sft_early_stopping_patience": 2,
+    "sft_validation_min_delta": 0.0001,
+    "sft_min_learning_rate": 0.000001,
+    "trajectory_source": "real_training_windows",
+    "fit_holdout": "frame_disjoint_internal_training_partition"
+  },
+  "routes": [
+    "without_neural_ode",
+    "with_neural_ode"
+  ],
+  "teacher_selection": "minimum real validation RMSE from current formal teacher run",
+  "teacher_checkpoint": "runs/unet_teacher_seen_formal_20261112/checkpoints/unet/unet_cylinder_real_False/2026-11-12_13-20-10/model_6600.pth",
+  "teacher_normalizer": "data/baselines_seen_v1/cylinder/mean_std.pt",
+  "eqgpt_checkpoint": "runs/ode205_commutative32_cosine_20261113/model.pt",
+  "eqgpt_tokenizer": "runs/ode205_commutative32_cosine_20261113/tokenizer300.json",
+  "eqgpt_validation_corpus": "runs/ode205_commutative32_cosine_20261113/encoded.jsonl",
+  "teacher_must_be_complete": true,
+  "test_policy": "freeze all models before test, report per-trajectory RMSE on same seen test windows",
+  "memory_limit_total_gpu_gib": null,
+  "data_access": "stream windows; never load full dataset into GPU or a single compressed NPZ",
+  "execution_ready": true,
+  "preflight": "Commutative-32 EqGPT: tokenizer trained on 189 original training formulas; Transformer on 6048 training variants; 4096 constrained samples yielded 55 unique runtime structures after associative/commutative deduplication. Search proceeds with collected candidates if the 8000-batch limit arrives before 400 unique structures",
+  "remaining_implementation": []
+}

@@ -1,0 +1,109 @@
+{
+  "systems": [
+    {
+      "equations": [
+        "v+w",
+        "u-w",
+        "u+v",
+        "q-p",
+        "r-q",
+        "s-r",
+        "z-s",
+        "u-z"
+      ],
+      "text": "v+w\\\\u-w\\\\u+v\\\\q-p\\\\r-q\\\\s-r\\\\z-s\\\\u-z"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q",
+        "p",
+        "r",
+        "s",
+        "z"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q\\\\p\\\\r\\\\s\\\\z"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q-p",
+        "r-q",
+        "s-r",
+        "z-s",
+        "u-z"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q-p\\\\r-q\\\\s-r\\\\z-s\\\\u-z"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q+r",
+        "p+s",
+        "r+z",
+        "s+u",
+        "z+v"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q+r\\\\p+s\\\\r+z\\\\s+u\\\\z+v"
+    },
+    {
+      "equations": [
+        "v+u*w",
+        "u+v*w",
+        "-w+u*v",
+        "q-p",
+        "r-q",
+        "s-r",
+        "z-s",
+        "u-z"
+      ],
+      "text": "v+u*w\\\\u+v*w\\\\-w+u*v\\\\q-p\\\\r-q\\\\s-r\\\\z-s\\\\u-z"
+    },
+    {
+      "equations": [
+        "v+u^2",
+        "-u+v^2",
+        "p-w",
+        "q-p",
+        "r-q",
+        "s-r",
+        "z-s",
+        "u-z"
+      ],
+      "text": "v+u^2\\\\-u+v^2\\\\p-w\\\\q-p\\\\r-q\\\\s-r\\\\z-s\\\\u-z"
+    },
+    {
+      "equations": [
+        "v+w+u*p",
+        "u+w+v*q",
+        "u+v+w*r",
+        "q-p",
+        "r-q",
+        "s-r",
+        "z-s",
+        "u-z"
+      ],
+      "text": "v+w+u*p\\\\u+w+v*q\\\\u+v+w*r\\\\q-p\\\\r-q\\\\s-r\\\\z-s\\\\u-z"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q+r+s",
+        "p+s+z",
+        "r+z+u",
+        "s+u+v",
+        "z+v+w"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q+r+s\\\\p+s+z\\\\r+z+u\\\\s+u+v\\\\z+v+w"
+    }
+  ],
+  "seconds": 12.42233782634139
+}

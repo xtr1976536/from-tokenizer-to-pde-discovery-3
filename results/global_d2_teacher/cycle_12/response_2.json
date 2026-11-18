@@ -1,0 +1,61 @@
+{
+  "systems": [
+    {
+      "equations": [
+        "u",
+        "v"
+      ],
+      "text": "u\\\\v"
+    },
+    {
+      "equations": [
+        "v",
+        "u"
+      ],
+      "text": "v\\\\u"
+    },
+    {
+      "equations": [
+        "1+u",
+        "v"
+      ],
+      "text": "1+u\\\\v"
+    },
+    {
+      "equations": [
+        "u+v",
+        "v"
+      ],
+      "text": "u+v\\\\v"
+    },
+    {
+      "equations": [
+        "u+u^2",
+        "v+uv"
+      ],
+      "text": "u+u^2\\\\v+uv"
+    },
+    {
+      "equations": [
+        "v+uv",
+        "u+v^2"
+      ],
+      "text": "v+uv\\\\u+v^2"
+    },
+    {
+      "equations": [
+        "1+u+v^2",
+        "u-v"
+      ],
+      "text": "1+u+v^2\\\\u-v"
+    },
+    {
+      "equations": [
+        "u+v^2+u^3",
+        "v+uv"
+      ],
+      "text": "u+v^2+u^3\\\\v+uv"
+    }
+  ],
+  "seconds": 5.333429250866175
+}

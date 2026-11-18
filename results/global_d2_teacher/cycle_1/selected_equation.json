@@ -1,0 +1,26 @@
+{
+  "text": "u*v\\\\v",
+  "fields": [
+    "u",
+    "v"
+  ],
+  "coefficients": [
+    [
+      175.89083964581664
+    ],
+    [
+      0.011314072658144197
+    ]
+  ],
+  "structural_family_key": "fcb06a1d607472a80e5a5eba268c3ac43cb80d2d4b5e40716fca4120bc18258c",
+  "status": "PASS",
+  "internal_holdout_latent_rollout_mse": 2.3122695138799877e-06,
+  "coefficient_fit_seconds": 0.14632141403853893,
+  "latent_rollout_seconds": 0.028931276872754097,
+  "source": "LLM proposal",
+  "training_only": true,
+  "external_validation_used": false,
+  "fit_and_rollout_seconds": 0.17533797398209572,
+  "internal_holdout_field_mse_before_adaptation": 0.00434074280278944,
+  "field_score_seconds": 7.828159295022488
+}

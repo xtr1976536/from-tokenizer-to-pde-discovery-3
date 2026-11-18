@@ -1,0 +1,535 @@
+[
+  {
+    "cycle": 1,
+    "student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_1/teacher_epoch/student.pt",
+    "passing": 21,
+    "post_adaptation": {
+      "coordinate_version": "16e9129bf8d167f08436a54d8ea8785f4d266a66e986450526d42fd820dfebae",
+      "internal_holdout_field_mse_after_epoch": 0.0010551991314243878
+    },
+    "selected_equation": {
+      "text": "u+v\\\\1+w+p\\\\u+v+w\\\\u+p",
+      "fields": [
+        "u",
+        "v",
+        "w",
+        "p"
+      ],
+      "coefficients": [
+        [
+          1.1553409618821369,
+          -0.5902654927868513
+        ],
+        [
+          0.0029444995696427984,
+          -0.8272866008622318,
+          -1.659514277085354
+        ],
+        [
+          -5.37890961911673,
+          4.825815216171517,
+          2.6938892138209645
+        ],
+        [
+          1.7726152787310883,
+          -2.082499961094396
+        ]
+      ],
+      "structural_family_key": "12b9ae0ab80312045799cf1bac35118cc4c3d23bb184f9a4ba135361d7f728f5",
+      "status": "PASS",
+      "internal_holdout_latent_rollout_mse": 1.9176618145154543e-06,
+      "coefficient_fit_seconds": 0.16339156590402126,
+      "latent_rollout_seconds": 0.09339069947600365,
+      "source": "LLM proposal",
+      "training_only": true,
+      "external_validation_used": false,
+      "fit_and_rollout_seconds": 0.2571673281490803,
+      "internal_holdout_field_mse_before_adaptation": 0.004332338311152588,
+      "field_score_seconds": 15.185557784512639
+    },
+    "selection_source": "training internal holdout field MSE",
+    "candidate_training_updates": 0,
+    "teacher_epoch": {
+      "status": "COMPLETE",
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.7553516775589102,
+          "val_loss": 0.001008761846102201,
+          "training_samples_seen": 8147,
+          "training_samples_total": 8147,
+          "full_training_epoch": true,
+          "validation_samples": 832
+        }
+      ],
+      "best_val": 0.001008761846102201,
+      "best_epoch": 1,
+      "last_meaningful_epoch": 1,
+      "early_stopping_min_delta": 0.0,
+      "epochs_run": 1,
+      "early_stopped": false,
+      "updates": 679,
+      "peak_gpu_allocated_gib": 7.844301223754883
+    },
+    "completed_full_epochs": 1,
+    "best_validation_mse": 0.001008761846102201,
+    "best_student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_1/teacher_epoch/student.pt",
+    "meaningful_best": 0.001008761846102201,
+    "stale_cycles": 0
+  },
+  {
+    "cycle": 2,
+    "student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_2/teacher_epoch/student.pt",
+    "passing": 19,
+    "post_adaptation": {
+      "coordinate_version": "af62391101fc8d7c9ec5615970dee2f5b61d72fe7a90f186adcd6d258269670e",
+      "internal_holdout_field_mse_after_epoch": 0.0008794515674737892
+    },
+    "selected_equation": {
+      "text": "u*v\\\\u+w\\\\v+p\\\\w+p",
+      "fields": [
+        "u",
+        "v",
+        "w",
+        "p"
+      ],
+      "coefficients": [
+        [
+          -0.0029482006339167006
+        ],
+        [
+          -1.2510788079662813,
+          -0.7247722126567812
+        ],
+        [
+          3.7815344517867397,
+          -3.392926820552035
+        ],
+        [
+          1.331279211116674,
+          1.6454473079030811
+        ]
+      ],
+      "structural_family_key": "8a78d705bb91c7198f6a1333f49c6104eaeb2b6d982d57f95df67de47a5dd33a",
+      "status": "PASS",
+      "internal_holdout_latent_rollout_mse": 9.845469171365531,
+      "coefficient_fit_seconds": 0.15400024875998497,
+      "latent_rollout_seconds": 0.12442159466445446,
+      "source": "LLM proposal",
+      "training_only": true,
+      "external_validation_used": false,
+      "fit_and_rollout_seconds": 0.28365793265402317,
+      "internal_holdout_field_mse_before_adaptation": 0.0011000785444203064,
+      "field_score_seconds": 22.73069633357227
+    },
+    "selection_source": "training internal holdout field MSE",
+    "candidate_training_updates": 0,
+    "teacher_epoch": {
+      "status": "COMPLETE",
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.38574483924832015,
+          "val_loss": 0.0008329663139123183,
+          "learning_rate": 0.0001,
+          "training_samples_seen": 8147,
+          "training_samples_total": 8147,
+          "full_training_epoch": true,
+          "validation_samples": 832
+        }
+      ],
+      "best_val": 0.0008329663139123183,
+      "best_epoch": 1,
+      "last_meaningful_epoch": 1,
+      "early_stopping_min_delta": 0.0,
+      "epochs_run": 1,
+      "early_stopped": false,
+      "updates": 679,
+      "peak_gpu_allocated_gib": 7.844301223754883
+    },
+    "completed_full_epochs": 2,
+    "best_validation_mse": 0.0008329663139123183,
+    "best_student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_2/teacher_epoch/student.pt",
+    "meaningful_best": 0.0008329663139123183,
+    "stale_cycles": 0
+  },
+  {
+    "cycle": 3,
+    "student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_3/teacher_epoch/student.pt",
+    "passing": 8,
+    "post_adaptation": {
+      "coordinate_version": "1ab683924b1532aeca7e004e2f1c44499a57b20f216b8a5215d7c9067f54dd55",
+      "internal_holdout_field_mse_after_epoch": 0.000790612701692836
+    },
+    "selected_equation": {
+      "text": "v\\\\w\\\\p\\\\u+v+w",
+      "fields": [
+        "u",
+        "v",
+        "w",
+        "p"
+      ],
+      "coefficients": [
+        [
+          0.15065428259552893
+        ],
+        [
+          -0.6994237576624812
+        ],
+        [
+          -0.7077990767390999
+        ],
+        [
+          -2.7432744176765915,
+          7.4991140819447075,
+          3.9355153927369115
+        ]
+      ],
+      "structural_family_key": "8df7dbc4715ce4e9bb14281ed54ba0ec2397d35f297bce94d5c7be7fc1ca3245",
+      "status": "PASS",
+      "internal_holdout_latent_rollout_mse": 7.170613201765138,
+      "coefficient_fit_seconds": 0.15196668170392513,
+      "latent_rollout_seconds": 0.06073856167495251,
+      "source": "LLM proposal",
+      "training_only": true,
+      "external_validation_used": false,
+      "fit_and_rollout_seconds": 0.21508903801441193,
+      "internal_holdout_field_mse_before_adaptation": 0.0009272658377776224,
+      "field_score_seconds": 12.306883540004492
+    },
+    "selection_source": "training internal holdout field MSE",
+    "candidate_training_updates": 0,
+    "teacher_epoch": {
+      "status": "COMPLETE",
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.3341319515357488,
+          "val_loss": 0.0007463670693911039,
+          "learning_rate": 0.0001,
+          "training_samples_seen": 8147,
+          "training_samples_total": 8147,
+          "full_training_epoch": true,
+          "validation_samples": 832
+        }
+      ],
+      "best_val": 0.0007463670693911039,
+      "best_epoch": 1,
+      "last_meaningful_epoch": 1,
+      "early_stopping_min_delta": 0.0,
+      "epochs_run": 1,
+      "early_stopped": false,
+      "updates": 679,
+      "peak_gpu_allocated_gib": 7.875553131103516
+    },
+    "completed_full_epochs": 3,
+    "best_validation_mse": 0.0007463670693911039,
+    "best_student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_3/teacher_epoch/student.pt",
+    "meaningful_best": 0.0007463670693911039,
+    "stale_cycles": 0
+  },
+  {
+    "cycle": 4,
+    "student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_4/teacher_epoch/student.pt",
+    "passing": 11,
+    "post_adaptation": {
+      "coordinate_version": "6fedd1af7f05b57db4eec64fbd70f728a35d73029638fd436ecba15c270a41dc",
+      "internal_holdout_field_mse_after_epoch": 0.0008212474608836322
+    },
+    "selected_equation": {
+      "text": "v\\\\w\\\\p\\\\u+v",
+      "fields": [
+        "u",
+        "v",
+        "w",
+        "p"
+      ],
+      "coefficients": [
+        [
+          0.0878468904565323
+        ],
+        [
+          -0.4854368929427441
+        ],
+        [
+          -1.2669802311969973
+        ],
+        [
+          -0.9449304162016152,
+          1.859235946000473
+        ]
+      ],
+      "structural_family_key": "56124d1389fda8437a590a64b93c927965e6bfd98f6860f335da285b15b608e7",
+      "status": "PASS",
+      "internal_holdout_latent_rollout_mse": 8.694300073547439,
+      "coefficient_fit_seconds": 0.15026766806840897,
+      "latent_rollout_seconds": 0.05441692844033241,
+      "source": "LLM proposal",
+      "training_only": true,
+      "external_validation_used": false,
+      "fit_and_rollout_seconds": 0.20503839291632175,
+      "internal_holdout_field_mse_before_adaptation": 0.0009763598412852511,
+      "field_score_seconds": 13.773955386132002
+    },
+    "selection_source": "training internal holdout field MSE",
+    "candidate_training_updates": 0,
+    "teacher_epoch": {
+      "status": "COMPLETE",
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.33812334962375734,
+          "val_loss": 0.0007747959632139939,
+          "learning_rate": 0.0001,
+          "training_samples_seen": 8147,
+          "training_samples_total": 8147,
+          "full_training_epoch": true,
+          "validation_samples": 832
+        }
+      ],
+      "best_val": 0.0007747959632139939,
+      "best_epoch": 1,
+      "last_meaningful_epoch": 1,
+      "early_stopping_min_delta": 0.0,
+      "epochs_run": 1,
+      "early_stopped": false,
+      "updates": 679,
+      "peak_gpu_allocated_gib": 7.875553131103516
+    },
+    "completed_full_epochs": 4,
+    "best_validation_mse": 0.0007463670693911039,
+    "best_student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_3/teacher_epoch/student.pt",
+    "meaningful_best": 0.0007463670693911039,
+    "stale_cycles": 1
+  },
+  {
+    "cycle": 5,
+    "student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_5/teacher_epoch/student.pt",
+    "passing": 19,
+    "post_adaptation": {
+      "coordinate_version": "b24ee0a3ea4d318f9fe98ab845b8056d630d2d31f75444c60b3805bdcc87b1c6",
+      "internal_holdout_field_mse_after_epoch": 0.0007781918360398487
+    },
+    "selected_equation": {
+      "text": "v+w\\\\u+v*w\\\\w+u\\\\p+v",
+      "fields": [
+        "u",
+        "v",
+        "w",
+        "p"
+      ],
+      "coefficients": [
+        [
+          0.5913350583061664,
+          0.3597939273638357
+        ],
+        [
+          -0.8987260963655163,
+          0.04378784599651118
+        ],
+        [
+          -0.06736093706731244,
+          -0.6195448341091813
+        ],
+        [
+          -2.4415577186489132,
+          3.887094252151736
+        ]
+      ],
+      "structural_family_key": "c82be9071aae03f548a0fba03cf84f4b18fa5f67e88253765db0a6696edbbf11",
+      "status": "PASS",
+      "internal_holdout_latent_rollout_mse": 7.651423449374847,
+      "coefficient_fit_seconds": 0.15793201513588428,
+      "latent_rollout_seconds": 0.06564954482018948,
+      "source": "LLM proposal",
+      "training_only": true,
+      "external_validation_used": false,
+      "fit_and_rollout_seconds": 0.225951686501503,
+      "internal_holdout_field_mse_before_adaptation": 0.0008305454464571299,
+      "field_score_seconds": 13.388022568076849
+    },
+    "selection_source": "training internal holdout field MSE",
+    "candidate_training_updates": 0,
+    "teacher_epoch": {
+      "status": "COMPLETE",
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.3185927063797289,
+          "val_loss": 0.0007354010756199177,
+          "learning_rate": 0.0001,
+          "training_samples_seen": 8147,
+          "training_samples_total": 8147,
+          "full_training_epoch": true,
+          "validation_samples": 832
+        }
+      ],
+      "best_val": 0.0007354010756199177,
+      "best_epoch": 1,
+      "last_meaningful_epoch": 1,
+      "early_stopping_min_delta": 0.0,
+      "epochs_run": 1,
+      "early_stopped": false,
+      "updates": 679,
+      "peak_gpu_allocated_gib": 7.875553131103516
+    },
+    "completed_full_epochs": 5,
+    "best_validation_mse": 0.0007354010756199177,
+    "best_student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_5/teacher_epoch/student.pt",
+    "meaningful_best": 0.0007354010756199177,
+    "stale_cycles": 0
+  },
+  {
+    "cycle": 6,
+    "student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_6/teacher_epoch/student.pt",
+    "passing": 23,
+    "post_adaptation": {
+      "coordinate_version": "8f3941b75fca421d03a40438c95ac9f524f76383ea9cd678abff9de96fb263a1",
+      "internal_holdout_field_mse_after_epoch": 0.0007597282430242458
+    },
+    "selected_equation": {
+      "text": "u+w*p\\\\-v\\\\w+u*p\\\\-p+v",
+      "fields": [
+        "u",
+        "v",
+        "w",
+        "p"
+      ],
+      "coefficients": [
+        [
+          0.03502457064165484,
+          -0.001485453894937853
+        ],
+        [
+          0.006832306804454313
+        ],
+        [
+          -0.39008951368462846,
+          0.18452092607482748
+        ],
+        [
+          1.0562075158008501,
+          3.1065442794633293
+        ]
+      ],
+      "structural_family_key": "a5977f9f8218af140f160eb35b3309d42e21e6b3afce0262e9169eadd2ed6651",
+      "status": "PASS",
+      "internal_holdout_latent_rollout_mse": 9.015673265506251,
+      "coefficient_fit_seconds": 0.15780411288142204,
+      "latent_rollout_seconds": 0.07042737491428852,
+      "source": "LLM proposal",
+      "training_only": true,
+      "external_validation_used": false,
+      "fit_and_rollout_seconds": 0.23060552403330803,
+      "internal_holdout_field_mse_before_adaptation": 0.0008109850929075084,
+      "field_score_seconds": 11.906863454729319
+    },
+    "selection_source": "training internal holdout field MSE",
+    "candidate_training_updates": 0,
+    "teacher_epoch": {
+      "status": "COMPLETE",
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.31148100952687774,
+          "val_loss": 0.0007193252444267273,
+          "learning_rate": 0.0001,
+          "training_samples_seen": 8147,
+          "training_samples_total": 8147,
+          "full_training_epoch": true,
+          "validation_samples": 832
+        }
+      ],
+      "best_val": 0.0007193252444267273,
+      "best_epoch": 1,
+      "last_meaningful_epoch": 1,
+      "early_stopping_min_delta": 0.0,
+      "epochs_run": 1,
+      "early_stopped": false,
+      "updates": 679,
+      "peak_gpu_allocated_gib": 7.875553131103516
+    },
+    "completed_full_epochs": 6,
+    "best_validation_mse": 0.0007193252444267273,
+    "best_student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_6/teacher_epoch/student.pt",
+    "meaningful_best": 0.0007193252444267273,
+    "stale_cycles": 0
+  },
+  {
+    "cycle": 7,
+    "student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_7/teacher_epoch/student.pt",
+    "passing": 22,
+    "post_adaptation": {
+      "coordinate_version": "eef747b8fff8148f2b9e63d588e8dbbc67194b681b13815f5bbecb01058ebd60",
+      "internal_holdout_field_mse_after_epoch": 0.0007375075145514755
+    },
+    "selected_equation": {
+      "text": "u+w*p\\\\1+u*p\\\\v+u*w\\\\p+v*w",
+      "fields": [
+        "u",
+        "v",
+        "w",
+        "p"
+      ],
+      "coefficients": [
+        [
+          0.029850746901436687,
+          -0.0008444835622208174
+        ],
+        [
+          -5.867725194280879,
+          0.22287492026050085
+        ],
+        [
+          1.8193452940022636,
+          -0.075087332800151
+        ],
+        [
+          -0.4126447572033621,
+          0.11278205816531942
+        ]
+      ],
+      "structural_family_key": "d8b94bf7a5763d16be12691b24f76231ca23e0898453776df95e0dd3265252f0",
+      "status": "PASS",
+      "internal_holdout_latent_rollout_mse": 12.960771635204708,
+      "coefficient_fit_seconds": 0.15851915255188942,
+      "latent_rollout_seconds": 0.11285095661878586,
+      "source": "LLM proposal",
+      "training_only": true,
+      "external_validation_used": false,
+      "fit_and_rollout_seconds": 0.27185795456171036,
+      "internal_holdout_field_mse_before_adaptation": 0.0007785517493133657,
+      "field_score_seconds": 14.43430600874126
+    },
+    "selection_source": "training internal holdout field MSE",
+    "candidate_training_updates": 0,
+    "teacher_epoch": {
+      "status": "COMPLETE",
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.30137099433191045,
+          "val_loss": 0.0006973537114950327,
+          "learning_rate": 0.0001,
+          "training_samples_seen": 8147,
+          "training_samples_total": 8147,
+          "full_training_epoch": true,
+          "validation_samples": 832
+        }
+      ],
+      "best_val": 0.0006973537114950327,
+      "best_epoch": 1,
+      "last_meaningful_epoch": 1,
+      "early_stopping_min_delta": 0.0,
+      "epochs_run": 1,
+      "early_stopped": false,
+      "updates": 679,
+      "peak_gpu_allocated_gib": 7.875553131103516
+    },
+    "completed_full_epochs": 7,
+    "best_validation_mse": 0.0006973537114950327,
+    "best_student": "/data1/users/liugang/src/eq-bpe/project/runs/stage3_llm_20261118/full_simple_alternating_d4_v1/cycle_7/teacher_epoch/student.pt",
+    "meaningful_best": 0.0006973537114950327,
+    "stale_cycles": 0
+  }
+]

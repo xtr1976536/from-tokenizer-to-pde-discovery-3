@@ -1,0 +1,26 @@
+[
+  {
+    "dim": 2,
+    "status": "IN_PROGRESS_SNAPSHOT",
+    "completed_epochs": 16,
+    "best_validation_mse": 0.0009262763536893405,
+    "best_checkpoint": "checkpoints/global_d2_teacher_best.pt",
+    "test_results_available": false
+  },
+  {
+    "dim": 4,
+    "status": "IN_PROGRESS_SNAPSHOT",
+    "completed_epochs": 7,
+    "best_validation_mse": 0.0006973537114950327,
+    "best_checkpoint": "checkpoints/global_d4_teacher_best.pt",
+    "test_results_available": false
+  },
+  {
+    "dim": 8,
+    "status": "IN_PROGRESS_SNAPSHOT",
+    "completed_epochs": 5,
+    "best_validation_mse": 0.0005979035336237688,
+    "best_checkpoint": "checkpoints/global_d8_teacher_best.pt",
+    "test_results_available": false
+  }
+]

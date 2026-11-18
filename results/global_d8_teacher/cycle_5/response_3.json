@@ -1,0 +1,109 @@
+{
+  "systems": [
+    {
+      "equations": [
+        "v+w",
+        "u+p",
+        "v+q",
+        "w+r",
+        "p+s",
+        "q+z",
+        "r+u",
+        "s+v"
+      ],
+      "text": "v+w\\\\u+p\\\\v+q\\\\w+r\\\\p+s\\\\q+z\\\\r+u\\\\s+v"
+    },
+    {
+      "equations": [
+        "v+u*w",
+        "w+u*p",
+        "p+v*q",
+        "q+w*r",
+        "r+p*s",
+        "s+q*z",
+        "z+r*u",
+        "u+s*v"
+      ],
+      "text": "v+u*w\\\\w+u*p\\\\p+v*q\\\\q+w*r\\\\r+p*s\\\\s+q*z\\\\z+r*u\\\\u+s*v"
+    },
+    {
+      "equations": [
+        "v+w*p",
+        "u+q*r",
+        "w+u*s",
+        "v+p*z",
+        "q+w*r",
+        "p+s*u",
+        "r+v*z",
+        "s+u*q"
+      ],
+      "text": "v+w*p\\\\u+q*r\\\\w+u*s\\\\v+p*z\\\\q+w*r\\\\p+s*u\\\\r+v*z\\\\s+u*q"
+    },
+    {
+      "equations": [
+        "v+u*p",
+        "w+v*q",
+        "p+w*r",
+        "q+p*s",
+        "r+q*z",
+        "s+r*u",
+        "z+s*v",
+        "u+z*w"
+      ],
+      "text": "v+u*p\\\\w+v*q\\\\p+w*r\\\\q+p*s\\\\r+q*z\\\\s+r*u\\\\z+s*v\\\\u+z*w"
+    },
+    {
+      "equations": [
+        "1+v",
+        "1+w",
+        "1+p",
+        "1+q",
+        "1+r",
+        "1+s",
+        "1+z",
+        "1+u"
+      ],
+      "text": "1+v\\\\1+w\\\\1+p\\\\1+q\\\\1+r\\\\1+s\\\\1+z\\\\1+u"
+    },
+    {
+      "equations": [
+        "v+u*u",
+        "w+v*v",
+        "u+w*w",
+        "q+p*p",
+        "r+q*q",
+        "p+r*r",
+        "z+s*s",
+        "s+z*z"
+      ],
+      "text": "v+u*u\\\\w+v*v\\\\u+w*w\\\\q+p*p\\\\r+q*q\\\\p+r*r\\\\z+s*s\\\\s+z*z"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+p",
+        "w+q",
+        "v+r",
+        "q+s",
+        "p+z",
+        "r+u",
+        "s+1"
+      ],
+      "text": "v+w\\\\u+p\\\\w+q\\\\v+r\\\\q+s\\\\p+z\\\\r+u\\\\s+1"
+    },
+    {
+      "equations": [
+        "v+u*q",
+        "w+v*r",
+        "u+w*s",
+        "r+p*z",
+        "s+q*u",
+        "p+r*v",
+        "q+s*w",
+        "z+p*u"
+      ],
+      "text": "v+u*q\\\\w+v*r\\\\u+w*s\\\\r+p*z\\\\s+q*u\\\\p+r*v\\\\q+s*w\\\\z+p*u"
+    }
+  ],
+  "seconds": 8.671891754493117
+}

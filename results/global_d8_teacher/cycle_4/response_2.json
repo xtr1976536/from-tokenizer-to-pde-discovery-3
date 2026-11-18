@@ -1,0 +1,109 @@
+{
+  "systems": [
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q",
+        "p",
+        "r",
+        "s",
+        "z"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q\\\\p\\\\r\\\\s\\\\z"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q+r",
+        "p+s",
+        "r+z",
+        "s+u",
+        "z+v"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q+r\\\\p+s\\\\r+z\\\\s+u\\\\z+v"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q+p",
+        "p+r",
+        "r+s",
+        "s+z",
+        "z+q"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q+p\\\\p+r\\\\r+s\\\\s+z\\\\z+q"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q+r",
+        "p+s",
+        "r+u",
+        "s+v",
+        "z+w"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q+r\\\\p+s\\\\r+u\\\\s+v\\\\z+w"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q+w",
+        "p+u",
+        "r+v",
+        "s+p",
+        "z+q"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q+w\\\\p+u\\\\r+v\\\\s+p\\\\z+q"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q+r+p",
+        "p+s+q",
+        "r+z+s",
+        "s+u+r",
+        "z+v+p"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q+r+p\\\\p+s+q\\\\r+z+s\\\\s+u+r\\\\z+v+p"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q+r",
+        "p+s",
+        "r+z",
+        "s+u",
+        "z+v+w"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q+r\\\\p+s\\\\r+z\\\\s+u\\\\z+v+w"
+    },
+    {
+      "equations": [
+        "v+w",
+        "u+w",
+        "u+v",
+        "q+r+s",
+        "p+s+z",
+        "r+u+q",
+        "s+v+p",
+        "z+w+r"
+      ],
+      "text": "v+w\\\\u+w\\\\u+v\\\\q+r+s\\\\p+s+z\\\\r+u+q\\\\s+v+p\\\\z+w+r"
+    }
+  ],
+  "seconds": 10.905813433229923
+}

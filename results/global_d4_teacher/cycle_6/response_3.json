@@ -1,0 +1,77 @@
+{
+  "systems": [
+    {
+      "equations": [
+        "v+w",
+        "-u+p",
+        "u*v-w",
+        "v-p"
+      ],
+      "text": "v+w\\\\-u+p\\\\u*v-w\\\\v-p"
+    },
+    {
+      "equations": [
+        "1+v*w",
+        "u-p",
+        "1+w",
+        "-u+v"
+      ],
+      "text": "1+v*w\\\\u-p\\\\1+w\\\\-u+v"
+    },
+    {
+      "equations": [
+        "u+w*p",
+        "-v",
+        "w+u*p",
+        "-p+v"
+      ],
+      "text": "u+w*p\\\\-v\\\\w+u*p\\\\-p+v"
+    },
+    {
+      "equations": [
+        "v*p",
+        "u+w",
+        "-v+w*p",
+        "1-u"
+      ],
+      "text": "v*p\\\\u+w\\\\-v+w*p\\\\1-u"
+    },
+    {
+      "equations": [
+        "1+w",
+        "-u+p*w",
+        "v-u",
+        "-p+w"
+      ],
+      "text": "1+w\\\\-u+p*w\\\\v-u\\\\-p+w"
+    },
+    {
+      "equations": [
+        "u*v+w",
+        "-v+p",
+        "1-u*w",
+        "-p-v"
+      ],
+      "text": "u*v+w\\\\-v+p\\\\1-u*w\\\\-p-v"
+    },
+    {
+      "equations": [
+        "v+w*p",
+        "-u-w",
+        "u+p",
+        "1-v"
+      ],
+      "text": "v+w*p\\\\-u-w\\\\u+p\\\\1-v"
+    },
+    {
+      "equations": [
+        "u+p*w",
+        "1-v",
+        "w-v*p",
+        "-u+p"
+      ],
+      "text": "u+p*w\\\\1-v\\\\w-v*p\\\\-u+p"
+    }
+  ],
+  "seconds": 12.625280074775219
+}

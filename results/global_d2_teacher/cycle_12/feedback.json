@@ -1,0 +1,632 @@
+[
+  {
+    "coordinate_version": "97837c9212996786cfd07180236526d2f72cb4c75e321cf3f2159f34d9631275",
+    "internal_holdout_field_mse_after_epoch": 0.0010702679805470378
+  },
+  {
+    "text": "1+u+v\\\\1+u-v",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -3.8112550310281446,
+        0.3761021542913074,
+        27.468272694415905
+      ],
+      [
+        4.42614351927286,
+        -0.9519387133866906,
+        0.38400536154555964
+      ]
+    ],
+    "structural_family_key": "67d66765ce47525406ffa733d2d66d01290f8c8d41fecf85a463e92acf44d8c8",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.2321731735719539,
+    "coefficient_fit_seconds": 0.1516670472919941,
+    "latent_rollout_seconds": 0.058186858892440796,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.2105526328086853,
+    "internal_holdout_field_mse_before_adaptation": 0.001108117558319623,
+    "field_score_seconds": 12.908848701044917
+  },
+  {
+    "text": "u+v+u^2\\\\u-v+v^2",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -2.2892581984667744,
+        29.034764701085503,
+        0.1667709240328867
+      ],
+      [
+        -1.0745426789716173,
+        1.4314997182275588,
+        1.371086845452458
+      ]
+    ],
+    "structural_family_key": "36ccc27d14f42de9f929d46184d8387fdeb2b7e2ee62fac204adcc54df4a2341",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.4448760036160824,
+    "coefficient_fit_seconds": 0.15035880357027054,
+    "latent_rollout_seconds": 0.05675148032605648,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.20757733285427094,
+    "internal_holdout_field_mse_before_adaptation": 0.0011335398642915696,
+    "field_score_seconds": 13.467196425423026
+  },
+  {
+    "text": "1+u+v+u^2\\\\1+u-v+v^2",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -9.200802062008789,
+        -2.4562990514003187,
+        29.93450676412585,
+        0.21194549140975258
+      ],
+      [
+        2.9912890207663785,
+        -1.1749262694516798,
+        1.3567937289237073,
+        1.1372971282864597
+      ]
+    ],
+    "structural_family_key": "18621ab771496414297f35d630badaed267695f4a14f5d35635582321af49f7f",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.536008749080657,
+    "coefficient_fit_seconds": 0.15228562988340855,
+    "latent_rollout_seconds": 0.07185768708586693,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.2248402237892151,
+    "internal_holdout_field_mse_before_adaptation": 0.001163066406698898,
+    "field_score_seconds": 13.98391112498939
+  },
+  {
+    "text": "u+v+u^2+uv\\\\u-v+v^2+uv",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -2.076382040210162,
+        18.853547370637397,
+        0.17304090234861355,
+        1.0233341798075881
+      ],
+      [
+        -1.0891832463955113,
+        -1.7140385399235467,
+        1.09999011763221,
+        -0.2893968454445066
+      ]
+    ],
+    "structural_family_key": "3e618660265fc846dc5f1b4914fc4b514eda00ca42372f4c4b7825f464f65366",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.4175136752267712,
+    "coefficient_fit_seconds": 0.15169761516153812,
+    "latent_rollout_seconds": 0.07720960304141045,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.22951219230890274,
+    "internal_holdout_field_mse_before_adaptation": 0.0011205222917029776,
+    "field_score_seconds": 14.504529064521194
+  },
+  {
+    "text": "1+u+u^2+v\\\\1+v+v^2+u",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -9.200802062008782,
+        -2.4562990514003196,
+        0.21194549140975258,
+        29.934506764125857
+      ],
+      [
+        2.9912890207663763,
+        -1.3567937289237086,
+        1.1372971282864597,
+        -1.17492626945168
+      ]
+    ],
+    "structural_family_key": "5e7fa7dbb38eb5d30bd0d3094dc57f88eb8df650d17678470dc6b3a0d3847c63",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.536008749080657,
+    "coefficient_fit_seconds": 0.15202383510768414,
+    "latent_rollout_seconds": 0.06949319876730442,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.2220550961792469,
+    "internal_holdout_field_mse_before_adaptation": 0.001163066406698898,
+    "field_score_seconds": 13.12864843197167
+  },
+  {
+    "text": "u+v+u^3\\\\u-v+v^3",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -1.693992531460207,
+        29.114674129033265,
+        0.007058401768207139
+      ],
+      [
+        -0.7154534190637762,
+        0.6247473158814669,
+        0.051004190563753445
+      ]
+    ],
+    "structural_family_key": "9ca984bd142d3dcf12d0cb7ac953dbc9506762a821a4bb6afb118b2bafd9f2cb",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.5972228180926697,
+    "coefficient_fit_seconds": 0.15002277307212353,
+    "latent_rollout_seconds": 0.10097984969615936,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.25378641299903393,
+    "internal_holdout_field_mse_before_adaptation": 0.001103441818697425,
+    "field_score_seconds": 13.611839605495334
+  },
+  {
+    "text": "1+u+v+u^2+uv\\\\1+u-v+v^2+uv",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -9.564479723128832,
+        -2.244270471739306,
+        19.513609162092962,
+        0.22017057859988848,
+        1.0509995094395013
+      ],
+      [
+        3.4933689636727596,
+        -1.2090046318569667,
+        -2.3574627553948124,
+        0.7790253891462132,
+        -0.34056661091380824
+      ]
+    ],
+    "structural_family_key": "d4d7d4642b2fdce848dfc60da2590ac8480c98ccf7ebdac1115f746e10ad9c46",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.5504974028560923,
+    "coefficient_fit_seconds": 0.1548707652837038,
+    "latent_rollout_seconds": 0.09924930520355701,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.254441874101758,
+    "internal_holdout_field_mse_before_adaptation": 0.0011637399406461161,
+    "field_score_seconds": 14.421844094991684
+  },
+  {
+    "text": "u+v+u^2+v^2+u^3\\\\u-v+u^2-v^2+v^3",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -1.629499303825227,
+        30.9748821415926,
+        0.1234169230106161,
+        -2.0579552869559476,
+        0.001983733575461372
+      ],
+      [
+        0.689079261811327,
+        1.2271691599422834,
+        -0.12220023948493225,
+        -1.5643937913911372,
+        -0.18951628810980714
+      ]
+    ],
+    "structural_family_key": "89ff5e98dae678ca6a31ab4e384787fb649cbd5f47175455da35d5f0a7b74cb4",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.0542082924736456,
+    "coefficient_fit_seconds": 0.15766641311347485,
+    "latent_rollout_seconds": 0.09443726949393749,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.2522862683981657,
+    "internal_holdout_field_mse_before_adaptation": 0.0011707246055144777,
+    "field_score_seconds": 13.33461625687778
+  },
+  {
+    "text": "u\\\\v",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -0.005479465506251164
+      ],
+      [
+        -0.00042540641862822386
+      ]
+    ],
+    "structural_family_key": "0ef736e68fda22f74c4e4a5df28e785319b447ef2677c1a0856ab51c92150501",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 5.012824834518264,
+    "coefficient_fit_seconds": 0.1439566519111395,
+    "latent_rollout_seconds": 0.02430870570242405,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.16837351769208908,
+    "internal_holdout_field_mse_before_adaptation": 0.0014215459540709177,
+    "field_score_seconds": 9.450846863910556
+  },
+  {
+    "text": "v\\\\u",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        27.248861316065284
+      ],
+      [
+        -0.7107654845965589
+      ]
+    ],
+    "structural_family_key": "fefe9477de0e8eb41ed7461444e86eb43648ac4b07e263e3f44c1e0470ff4f7a",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.2752687162907574,
+    "coefficient_fit_seconds": 0.1445556879043579,
+    "latent_rollout_seconds": 0.025565823540091515,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.1702207624912262,
+    "internal_holdout_field_mse_before_adaptation": 0.001072326458152178,
+    "field_score_seconds": 8.92291028611362
+  },
+  {
+    "text": "1+u\\\\v",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        0.05021130755907037,
+        -0.00818747922152366
+      ],
+      [
+        -0.00042540641862822386
+      ]
+    ],
+    "structural_family_key": "bf5f7c79f8b9bf5cb09a8aed9184f2ea85bab2280942272fdbef947b92c53715",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 5.01195643846531,
+    "coefficient_fit_seconds": 0.14615650288760662,
+    "latent_rollout_seconds": 0.0349810142070055,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.1812384482473135,
+    "internal_holdout_field_mse_before_adaptation": 0.0014215204230007164,
+    "field_score_seconds": 9.090273713693023
+  },
+  {
+    "text": "u+v\\\\v",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        0.16941750205228417,
+        27.291209220764006
+      ],
+      [
+        -0.00042540641862822386
+      ]
+    ],
+    "structural_family_key": "dd8e7e1f2732c1b5f596c681f6122bb8cba802fc09d908ca76823eb745e6f075",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.4818378049154204,
+    "coefficient_fit_seconds": 0.14440296217799187,
+    "latent_rollout_seconds": 0.027120882645249367,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.17161589674651623,
+    "internal_holdout_field_mse_before_adaptation": 0.0011542987753346025,
+    "field_score_seconds": 8.44062794931233
+  },
+  {
+    "text": "u+u^2\\\\v+uv",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        0.008798107925077401,
+        -0.0009640604632097038
+      ],
+      [
+        1.9002243356983106,
+        -0.1884126479967199
+      ]
+    ],
+    "structural_family_key": "ddbe4039d44e75faa1ba6c90133009d6b7182e544caa953fc6d4b0984212a948",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 5.003375137901447,
+    "coefficient_fit_seconds": 0.14745096676051617,
+    "latent_rollout_seconds": 0.045909566804766655,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.19346732646226883,
+    "internal_holdout_field_mse_before_adaptation": 0.0014371326256686784,
+    "field_score_seconds": 9.762460378929973
+  },
+  {
+    "text": "v+uv\\\\u+v^2",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        18.875607171090227,
+        0.8300461420351469
+      ],
+      [
+        -1.0102153569083796,
+        1.1578338616999861
+      ]
+    ],
+    "structural_family_key": "6ea00ecaa871c4dd8e5a5fd81c00764a1e1d7ce05dfb94b9512f9fa299254007",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.3296844355234125,
+    "coefficient_fit_seconds": 0.14646401442587376,
+    "latent_rollout_seconds": 0.049521902576088905,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.19609733670949936,
+    "internal_holdout_field_mse_before_adaptation": 0.0011087650000742178,
+    "field_score_seconds": 11.71300632506609
+  },
+  {
+    "text": "1+u+v^2\\\\u-v",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -3.3412136273246933,
+        -0.4600110065291439,
+        2.4542107243480675
+      ],
+      [
+        -0.7119086113354686,
+        0.17837536826933328
+      ]
+    ],
+    "structural_family_key": "673d1f39d4fe1f4eac01491847f6949a58d070b680340024c093c43da93a6b38",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 5.116549705810248,
+    "coefficient_fit_seconds": 0.14768134616315365,
+    "latent_rollout_seconds": 0.07576783373951912,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.22581065632402897,
+    "internal_holdout_field_mse_before_adaptation": 0.0012655893649853862,
+    "field_score_seconds": 13.271645599976182
+  },
+  {
+    "text": "u+v^2+u^3\\\\v+uv",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -0.8598336712937785,
+        2.282517231568185,
+        0.0009938781734364819
+      ],
+      [
+        1.9002243356983106,
+        -0.1884126479967199
+      ]
+    ],
+    "structural_family_key": "17202eb1073a598a8a24321171bfa944a2369e007be79339ef781cf68a7d8aac",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 4.672039715616573,
+    "coefficient_fit_seconds": 0.14872128143906593,
+    "latent_rollout_seconds": 0.0648591797798872,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.21712297946214676,
+    "internal_holdout_field_mse_before_adaptation": 0.0014153376020734057,
+    "field_score_seconds": 14.060010420158505
+  },
+  {
+    "text": "1+u\\\\v",
+    "status": "REJECTED",
+    "error": "Duplicate structure"
+  },
+  {
+    "text": "u\\\\1+v",
+    "status": "REJECTED",
+    "error": "Duplicate structure"
+  },
+  {
+    "text": "u+v\\\\u",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        0.16941750205228417,
+        27.291209220764006
+      ],
+      [
+        -0.7107654845965589
+      ]
+    ],
+    "structural_family_key": "c16864a03c5e0c2b4c53aac1ec0d0c600ac70a0a281bc3209dcd02d125c01984",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.279235872762932,
+    "coefficient_fit_seconds": 0.1447538211941719,
+    "latent_rollout_seconds": 0.05472306162118912,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.20299087464809418,
+    "internal_holdout_field_mse_before_adaptation": 0.0010712083282059214,
+    "field_score_seconds": 13.80758168362081
+  },
+  {
+    "text": "v\\\\u-v",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        27.248861316065284
+      ],
+      [
+        -0.7119086113354686,
+        0.17837536826933328
+      ]
+    ],
+    "structural_family_key": "8d810ee5d05a0b6b997aac456bf2ca8f9ec058f065669c142fe2a39c3313b2aa",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.2686019474748713,
+    "coefficient_fit_seconds": 0.14367803744971752,
+    "latent_rollout_seconds": 0.039579298347234726,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.18410801887512207,
+    "internal_holdout_field_mse_before_adaptation": 0.001071750933588004,
+    "field_score_seconds": 13.68843837454915
+  },
+  {
+    "text": "1+u+v\\\\u",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        -3.8112550310281446,
+        0.3761021542913074,
+        27.468272694415905
+      ],
+      [
+        -0.7107654845965589
+      ]
+    ],
+    "structural_family_key": "cab3a60b500f30b22c294f342bc1a8ef2c6266521d8e6723d4274286a17be3f9",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.3129388905062516,
+    "coefficient_fit_seconds": 0.14627701230347157,
+    "latent_rollout_seconds": 0.07907592505216599,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.2277177944779396,
+    "internal_holdout_field_mse_before_adaptation": 0.0010771190047585576,
+    "field_score_seconds": 13.99383364059031
+  },
+  {
+    "text": "u+v\\\\1+v",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        0.16941750205228417,
+        27.291209220764006
+      ],
+      [
+        -0.11885927986304709,
+        0.003485373079618044
+      ]
+    ],
+    "structural_family_key": "b40494311f648fdf8eefa44aecfcd845f2ebc5f4af43bae3e78baa7020d42b45",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 1.480575240561412,
+    "coefficient_fit_seconds": 0.14738289453089237,
+    "latent_rollout_seconds": 0.05956081487238407,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.2072733398526907,
+    "internal_holdout_field_mse_before_adaptation": 0.0011527304381650871,
+    "field_score_seconds": 13.988215535879135
+  },
+  {
+    "text": "u+uv\\\\v",
+    "fields": [
+      "u",
+      "v"
+    ],
+    "coefficients": [
+      [
+        0.8199741151766933,
+        2.2769804856327283
+      ],
+      [
+        -0.00042540641862822386
+      ]
+    ],
+    "structural_family_key": "905e979fb3ef2995bdf637c82c8913bcfecb400236155ab11a982545433f8b4b",
+    "status": "PASS",
+    "internal_holdout_latent_rollout_mse": 2.4868487987251777,
+    "coefficient_fit_seconds": 0.1442902311682701,
+    "latent_rollout_seconds": 0.05564838834106922,
+    "source": "LLM proposal",
+    "training_only": true,
+    "external_validation_used": false,
+    "fit_and_rollout_seconds": 0.20072886906564236,
+    "internal_holdout_field_mse_before_adaptation": 0.001230500135447471,
+    "field_score_seconds": 14.185447102412581
+  },
+  {
+    "text": "u\\\\v+uv",
+    "status": "REJECTED",
+    "error": "Duplicate structure"
+  }
+]
